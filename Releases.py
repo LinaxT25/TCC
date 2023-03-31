@@ -1,0 +1,21 @@
+import psycopg2
+
+def releaseUser(connection, user):
+    try:
+        cursor = connection.cursor()
+        print("Searching if user make a release for repository...")
+
+        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".releases WHERE "author" = %s;', (user,))
+
+        data = cursor.fetchall()
+
+        if len(data) != 0:
+            print("User made a release for repository.\n")
+            cursor.close()
+            return True
+        else:
+            print("User don't made a release for repository.\n")
+            cursor.close()
+            return False
+    except(Exception, psycopg2.DatabaseError) as error:
+        print(error)
