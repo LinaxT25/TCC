@@ -10,7 +10,7 @@ def tagger(connection, id):
         cursor.execute(query, (id,))
 
         data = cursor.fetchall()
-        print(data)
+        #print(data)
 
         if len(data) != 0:
             print("User made tags for repository.\n")

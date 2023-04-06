@@ -5,7 +5,7 @@ def starredUser(connection, user):
         cursor = connection.cursor()
         print("Searching if user starred a repository...")
 
-        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".stargazers WHERE "user" = %s;', (user,))
+        cursor.execute('SELECT starred_at FROM "dv8fromtheworld/jda".stargazers WHERE "user" = %s;', (user,))
 
         data = cursor.fetchall()
         #print(data)
@@ -13,7 +13,7 @@ def starredUser(connection, user):
         if len(data) != 0:
             print("User starred the repository.\n")
             cursor.close()
-            return list(map(lambda x: ("starred", x[2]), data))
+            return tuple(["Starred", data])
         else:
             print("User not starred the repository.\n")
             cursor.close()
