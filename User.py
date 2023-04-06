@@ -8,6 +8,8 @@ def retrieveActors(connection, id):
         cursor.execute('SELECT * FROM "dv8fromtheworld/jda".actors WHERE "id" = %s;', (id,))
 
         data = cursor.fetchall()
+        #print(data[0][0])
+        #print(type(data[0]))
 
         if len(data) != 0:
             cursor.close()

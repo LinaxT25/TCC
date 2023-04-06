@@ -5,11 +5,12 @@ def tagger(connection, id):
         cursor = connection.cursor()
         print("Searching if user made tags for repository...")
 
-        query = 'SELECT * FROM "dv8fromtheworld/jda".tags ' + "WHERE tagger ->> 'user' = %s"
+        query = 'SELECT tagger FROM "dv8fromtheworld/jda".tags ' + "WHERE tagger ->> 'user' = %s"
 
         cursor.execute(query, (id,))
 
         data = cursor.fetchall()
+        print(data)
 
         if len(data) != 0:
             print("User made tags for repository.\n")

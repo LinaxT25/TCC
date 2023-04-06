@@ -8,6 +8,7 @@ def watching(connection, user):
         cursor.execute('SELECT * FROM "dv8fromtheworld/jda".watchers WHERE "user" = %s;', (user,))
 
         data = cursor.fetchall()
+        print(data)
 
         if len(data) != 0:
             print("User is watching the repository.\n")
