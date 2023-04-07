@@ -39,9 +39,14 @@ if __name__ == '__main__':
 
     if user is not False:
         print("User found!\n")
-        print(Stargazers.starredUser(connection, id))
-        Taggers.tagger(connection, id)
-        print(Releases.releaseUser(connection, id))
+
+        temporalList.append(Stargazers.starredUser(connection, id))
+        temporalList.append(Releases.releaseUser(connection, id))
+        temporalList.append(Taggers.tagger(connection, id)) #Change data format
+
+        # for i in temporalList:
+        #     print(i)
+
         # userDict.update({"user_reacted" : Reactions.reactedUser(connection, id)})
         # userDict.update({"user_starred" : Stargazers.starredUser(connection, id)})
         # userDict.update({"user_is_watching" : Watchers.watching(connection, id)})

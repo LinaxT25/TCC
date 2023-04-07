@@ -7,7 +7,7 @@ def releaseUser(connection, user):
 
         cursor.execute('SELECT created_at FROM "dv8fromtheworld/jda".releases WHERE "author" = %s;', (user,))
 
-        data = cursor.fetchall()
+        data = cursor.fetchall()#returns a list of tuples
         #print(data)
 
         if len(data) != 0:

@@ -7,7 +7,7 @@ def starredUser(connection, user):
 
         cursor.execute('SELECT starred_at FROM "dv8fromtheworld/jda".stargazers WHERE "user" = %s;', (user,))
 
-        data = cursor.fetchall()
+        data = cursor.fetchall()#returns a list of tuples
         #print(data)
 
         if len(data) != 0:
