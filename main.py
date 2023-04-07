@@ -43,9 +43,10 @@ if __name__ == '__main__':
         temporalList.append(Stargazers.starredUser(connection, id))
         temporalList.append(Releases.releaseUser(connection, id))
         temporalList.append(Taggers.tagger(connection, id)) #Change data format
+        temporalList.append(Reactions.reactedUser(connection, id))
 
-        # for i in temporalList:
-        #     print(i)
+        for i in temporalList:
+            print(i)
 
         # userDict.update({"user_reacted" : Reactions.reactedUser(connection, id)})
         # userDict.update({"user_starred" : Stargazers.starredUser(connection, id)})
