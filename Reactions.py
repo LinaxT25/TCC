@@ -3,10 +3,9 @@ import psycopg2
 def reactedUser(connection, user):
     try:
         cursor = connection.cursor()
+
         print("Searching if user reacted a repository...")
-
         cursor.execute('SELECT created_at FROM "dv8fromtheworld/jda".reactions WHERE "user" = %s;', (user,))
-
         data = cursor.fetchall()
         #print(data)
 

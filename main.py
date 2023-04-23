@@ -42,8 +42,11 @@ if __name__ == '__main__':
 
         temporalList.append(Stargazers.starredUser(connection, id))
         temporalList.append(Releases.releaseUser(connection, id))
-        temporalList.append(Taggers.tagger(connection, id)) #Change data format
+        temporalList.append(Taggers.tagger(connection, id)) # Change data format
         temporalList.append(Reactions.reactedUser(connection, id))
+        temporalList.append(Watchers.watching(connection, id)) # Don't have date return
+        temporalList.append(Pull_Requests.pullRequests(connection, id)) # Giant tuple return
+        temporalList.append(Issues.issues(connection, id)) # Giant tuple return
 
         for i in temporalList:
             print(i)
@@ -54,13 +57,13 @@ if __name__ == '__main__':
         # userDict.update({"user_made_releases" : Releases.releaseUser(connection, id)})
         # userDict.update({"user_made_tags" : Taggers.tagger(connection, id)})
 
-        issuesList = Issues.issues(connection, id)
+        # issuesList = Issues.issues(connection, id)
         # userDict.update({"user_is_assignee_issues" : issuesList[0]})
         # userDict.update({"user_is_author_issues" : issuesList[1]})
         # userDict.update({"user_is_editor_issues" : issuesList[2]})
         # userDict.update({"user_is_participant_issues" : issuesList[3]})
 
-        pullRequestsList = Pull_Requests.pullRequests(connection, id)
+        # pullRequestsList = Pull_Requests.pullRequests(connection, id)
         # userDict.update({"user_is_assignee_PR" : pullRequestsList[0]})
         # userDict.update({"user_is_author_PR" : pullRequestsList[1]})
         # userDict.update({"user_is_editor_PR" : pullRequestsList[2]})

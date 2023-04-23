@@ -1,92 +1,99 @@
 import psycopg2
+import itertools
 
 def pullRequests(connection, id):
     try:
-        pullRequestsList = list()
         cursor = connection.cursor()
-        print("Searching for assignees in pull_requests database...")
 
+        # Assignees
+        print("Searching for assignees in pull_requests database...")
         query = 'SELECT assignees FROM "dv8fromtheworld/jda".pull_requests'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
-
-        #Filter the Nones from the list of tuples
         users = list(filter(lambda x: x[0] is not None, data))
 
+        # Don't have data to return only true or false
         if users.__str__().__contains__(id):
             print("User is a assignee!\n")
-            pullRequestsList.append(True)
+            assigneeTuple = tuple(["AssigneePullRequest", True])
         else:
             print("User is not a assignee!\n")
-            pullRequestsList.append(False)
+            assigneeTuple = tuple(["AssigneePullRequest", False])
 
+        # Author
         print("Searching for author of pull request...")
-        query = 'SELECT * FROM "dv8fromtheworld/jda".pull_requests WHERE "author" = %s;'
+        query = 'SELECT created_at FROM "dv8fromtheworld/jda".pull_requests WHERE "author" = %s;'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
 
+        # Catch the creation data of the pull request(published_at and created_at have same data)
         if len(data) != 0:
             print("User is author of pull request!\n")
-            pullRequestsList.append(True)
+            authorTuple = tuple(["AuthorPullRequest", data])
         else:
             print("User is not author of pull request!\n")
-            pullRequestsList.append(False)
+            authorTuple = tuple(["AuthorPullRequest", None])
 
+        # Editor
         print("Searching for editor of pull request...")
-        query = 'SELECT * FROM "dv8fromtheworld/jda".pull_requests WHERE "editor" = %s;'
+        query = 'SELECT last_edited_at FROM "dv8fromtheworld/jda".pull_requests WHERE "editor" = %s;'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
 
+        # Catch the data with last edit of pull request
         if len(data) != 0:
             print("User is editor of pull request!\n")
-            pullRequestsList.append(True)
+            editorTuple = tuple(["EditorPullRequest", data])
         else:
             print("User is not editor of pull request!\n")
-            pullRequestsList.append(False)
+            editorTuple = tuple(["EditorPullRequest", None])
 
+        # Participants
         print("Searching for participants in pull_requests database...")
-
         query = 'SELECT participants FROM "dv8fromtheworld/jda".pull_requests'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
 
+        # Don't have any data to catch
         if data.__str__().__contains__(id):
             print("User is participant of this pull request!\n")
-            pullRequestsList.append(True)
+            participantTuple = tuple(["ParticipantPullRequest", True])
         else:
             print("User is not a participant of this pull request!\n")
-            pullRequestsList.append(False)
+            participantTuple = tuple(["ParticipantPullRequest", False])
 
+        # Author of merge
         print("Searching for author of merge in pull_requests database...")
-
-        query = 'SELECT * FROM "dv8fromtheworld/jda".pull_requests WHERE "merged_by" = %s;'
+        query = 'SELECT merged_at FROM "dv8fromtheworld/jda".pull_requests WHERE "merged_by" = %s;'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
 
+        # Catch the data of merge
         if len(data) != 0:
             print("User is author of merge!\n")
-            pullRequestsList.append(True)
+            mergedTuple = tuple(["Merged", data])
         else:
             print("User is not author of merge!\n")
-            pullRequestsList.append(False)
+            mergedTuple = tuple(["Merged", None])
 
+        # Suggested Reviewers
         print("Searching for suggested reviewers in pull_requests database...")
-
         query = 'SELECT suggested_reviewers FROM "dv8fromtheworld/jda".pull_requests'
         cursor.execute(query, (id,))
         data = cursor.fetchall()
-
-        # Filter the Nones from the list of tuples
         users = list(filter(lambda x: x[0] is not None, data))
 
+        # Don't have any data to catch
         if users.__str__().__contains__(id):
             print("User is a suggested reviewer!\n")
-            pullRequestsList.append(True)
+            suggestedReviewerTuple = tuple(["SuggestedReviewer", True])
         else:
             print("User is not a suggested reviewer!\n")
-            pullRequestsList.append(False)
+            suggestedReviewerTuple = tuple(["SuggestedReviewer", False])
 
+        finalTuple = tuple(itertools.chain(
+            assigneeTuple, authorTuple, editorTuple, participantTuple, mergedTuple, suggestedReviewerTuple))
         cursor.close()
-        return pullRequestsList
+        return finalTuple
     except(Exception, psycopg2.DatabaseError) as error:
          print(error)

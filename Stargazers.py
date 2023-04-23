@@ -3,10 +3,9 @@ import psycopg2
 def starredUser(connection, user):
     try:
         cursor = connection.cursor()
+
         print("Searching if user starred a repository...")
-
         cursor.execute('SELECT starred_at FROM "dv8fromtheworld/jda".stargazers WHERE "user" = %s;', (user,))
-
         data = cursor.fetchall()#returns a list of tuples
         #print(data)
 
