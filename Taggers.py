@@ -7,7 +7,7 @@ def tagger(connection, id):
         print("Searching if user made tags for repository...")
         query = 'SELECT tagger FROM "dv8fromtheworld/jda".tags ' + "WHERE tagger ->> 'user' = %s"
         cursor.execute(query, (id,))
-        data = cursor.fetchall() #returns a list of tuples of dicts
+        data = cursor.fetchall() #returns a list of tuples
         #print(data)
 
         if len(data) != 0:
@@ -16,10 +16,10 @@ def tagger(connection, id):
             extractedData = []
             for tuples in data:
                 extractedData.append(tuples[0].get('date'))
-            return tuple(["Taggers", extractedData])
+            return tuple(("Taggers", tuple(extractedData)))
         else:
             print("User don't made tags for repository.\n")
             cursor.close()
-            return None
+            return tuple(("Taggers", None))
     except(Exception, psycopg2.DatabaseError) as error:
         print(error)

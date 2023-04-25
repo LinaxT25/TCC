@@ -29,7 +29,7 @@ if __name__ == '__main__':
     #     "user_is_suggested_reviewer_of_PR" : ""
     # }
 
-    temporalList = []
+    # temporalList = []
     print("Input the user ID.")
     id = input()
 
@@ -40,16 +40,26 @@ if __name__ == '__main__':
     if user is not False:
         print("User found!\n")
 
-        temporalList.append(Stargazers.starredUser(connection, id))
-        temporalList.append(Releases.releaseUser(connection, id))
-        temporalList.append(Taggers.tagger(connection, id)) # Change data format
-        temporalList.append(Reactions.reactedUser(connection, id))
-        temporalList.append(Watchers.watching(connection, id)) # Don't have date return
-        temporalList.append(Pull_Requests.pullRequests(connection, id)) # Giant tuple return
-        temporalList.append(Issues.issues(connection, id)) # Giant tuple return
+        stargazers = Stargazers.starredUser(connection, id)
+        releases = Releases.releaseUser(connection, id)
+        taggers = Taggers.tagger(connection, id)
+        reactions = Reactions.reactedUser(connection, id)
+        watchers = Watchers.watching(connection, id)
+        pullRequests = Pull_Requests.pullRequests(connection, id)
+        issues = Issues.issues(connection, id)
 
-        for i in temporalList:
-            print(i)
+        print(stargazers)
+        print(releases)
+        print(taggers)
+        print(reactions)
+        print(watchers)
+        print(pullRequests)
+        print(issues)
+
+        # print(sorted(reactions[1]))
+
+        # for i in temporalList:
+        #     print(i)
 
         # userDict.update({"user_reacted" : Reactions.reactedUser(connection, id)})
         # userDict.update({"user_starred" : Stargazers.starredUser(connection, id)})
