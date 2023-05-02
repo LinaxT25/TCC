@@ -1,7 +1,5 @@
 import itertools
-
 import psycopg2
-
 def issues(connection, userid):
     try:
         cursor = connection.cursor()

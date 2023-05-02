@@ -37,12 +37,15 @@ def sorting(connection, userid):
     mergedPullRequest = tuple((pullRequests[8], None if pullRequests[9] is None else sorted(pullRequests[9])))
     suggestedReviewerPullRequest = tuple((pullRequests[10], pullRequests[11]))
 
+    userTuple = tuple((userid,None))
     finalTuple = tuple((
-        stargazers, releases, taggers, reactions, watchers, assigneeIssues, authorIssue, editorIssue, participantIssue,
-        assigneePullRequest, authorPullRequest, editorPullRequest, participantPullRequest, mergedPullRequest,
-        suggestedReviewerPullRequest ))
+        userTuple, stargazers, releases, taggers, reactions, watchers, assigneeIssues, authorIssue, editorIssue,
+        participantIssue, assigneePullRequest, authorPullRequest, editorPullRequest, participantPullRequest,
+        mergedPullRequest, suggestedReviewerPullRequest))
 
     print(finalTuple)
+
+    return finalTuple
 
 
 

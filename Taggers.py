@@ -8,7 +8,6 @@ def tagger(connection, userid):
         query = 'SELECT tagger FROM "dv8fromtheworld/jda".tags ' + "WHERE tagger ->> 'user' = %s"
         cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
-        #print(data)
 
         if len(data) != 0:
             print("User made tags for repository.\n")

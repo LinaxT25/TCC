@@ -7,8 +7,6 @@ def retrieveActors(connection, userid):
         print("Searching for a user in database...")
         cursor.execute('SELECT * FROM "dv8fromtheworld/jda".actors WHERE "id" = %s;', (userid,))
         data = cursor.fetchall()
-        #print(data[0][0])
-        #print(type(data[0]))
 
         if len(data) != 0:
             cursor.close()

@@ -1,6 +1,5 @@
 import psycopg2
 import itertools
-
 def pullRequests(connection, userid):
     try:
         cursor = connection.cursor()

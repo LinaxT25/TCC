@@ -1,5 +1,4 @@
 import psycopg2
-
 def reactedUser(connection, userid):
     try:
         cursor = connection.cursor()
@@ -7,7 +6,6 @@ def reactedUser(connection, userid):
         print("Searching if user reacted a repository...")
         cursor.execute('SELECT created_at FROM "dv8fromtheworld/jda".reactions WHERE "user" = %s;', (userid,))
         data = cursor.fetchall() #returns a list of tuples
-        #print(data)
 
         if len(data) != 0:
             print("User reacted the repository.\n")

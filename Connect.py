@@ -1,6 +1,4 @@
 import psycopg2
-
-#connecting to database to extract some data
 def connect():
     try:
         print("Connecting to the PostgreSQL database...")
