@@ -1,12 +1,12 @@
 import psycopg2
 
-def tagger(connection, id):
+def tagger(connection, userid):
     try:
         cursor = connection.cursor()
 
         print("Searching if user made tags for repository...")
         query = 'SELECT tagger FROM "dv8fromtheworld/jda".tags ' + "WHERE tagger ->> 'user' = %s"
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
         #print(data)
 

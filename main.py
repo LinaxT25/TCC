@@ -1,14 +1,7 @@
 import Connect
 import Close
 import User
-import Reactions
-import Stargazers
-import Watchers
-import Releases
-import Taggers
-import Issues
-import Pull_Requests
-
+import DataSorting
 
 if __name__ == '__main__':
     # userDict = {
@@ -31,32 +24,25 @@ if __name__ == '__main__':
 
     # temporalList = []
     print("Input the user ID.")
-    id = input()
+    userID = input()
 
     connection = Connect.connect()
-    user = User.retrieveActors(connection, id)
+    user = User.retrieveActors(connection, userID)
 
 
     if user is not False:
         print("User found!\n")
 
-        stargazers = Stargazers.starredUser(connection, id)
-        releases = Releases.releaseUser(connection, id)
-        taggers = Taggers.tagger(connection, id)
-        reactions = Reactions.reactedUser(connection, id)
-        watchers = Watchers.watching(connection, id)
-        pullRequests = Pull_Requests.pullRequests(connection, id)
-        issues = Issues.issues(connection, id)
+        DataSorting.sorting(connection, userID)
 
-        print(stargazers)
-        print(releases)
-        print(taggers)
-        print(reactions)
-        print(watchers)
-        print(pullRequests)
-        print(issues)
 
-        # print(sorted(reactions[1]))
+        # print(stargazers)
+        # print(releases)
+        # print(taggers)
+        # print(reactions)
+        # print(watchers)
+        # print(pullRequests)
+        # #print(issues)
 
         # for i in temporalList:
         #     print(i)

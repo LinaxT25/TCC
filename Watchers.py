@@ -1,11 +1,11 @@
 import psycopg2
 
-def watching(connection, user):
+def watching(connection, userid):
     try:
         cursor = connection.cursor()
 
         print("Searching if user is watching a repository...")
-        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".watchers WHERE "user" = %s;', (user,))
+        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".watchers WHERE "user" = %s;', (userid,))
         data = cursor.fetchall() #returns a list of tuples
         #print(data)
 

@@ -1,11 +1,11 @@
 import psycopg2
 
-def releaseUser(connection, user):
+def releaseUser(connection, userid):
     try:
         cursor = connection.cursor()
 
         print("Searching if user make a release for repository...")
-        cursor.execute('SELECT created_at FROM "dv8fromtheworld/jda".releases WHERE "author" = %s;', (user,))
+        cursor.execute('SELECT created_at FROM "dv8fromtheworld/jda".releases WHERE "author" = %s;', (userid,))
         data = cursor.fetchall() #returns a list of tuples
         #print(data)
 

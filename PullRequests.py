@@ -1,19 +1,19 @@
 import psycopg2
 import itertools
 
-def pullRequests(connection, id):
+def pullRequests(connection, userid):
     try:
         cursor = connection.cursor()
 
         # Assignees
         print("Searching for assignees in pull_requests database...")
         query = 'SELECT assignees FROM "dv8fromtheworld/jda".pull_requests'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
         users = list(filter(lambda x: x[0] is not None, data))
 
         # Don't have data to return only true or false
-        if users.__str__().__contains__(id):
+        if users.__str__().__contains__(userid):
             print("User is a assignee!\n")
             assigneeTuple = tuple(("AssigneePullRequest", True))
         else:
@@ -23,7 +23,7 @@ def pullRequests(connection, id):
         # Author
         print("Searching for author of pull request...")
         query = 'SELECT created_at FROM "dv8fromtheworld/jda".pull_requests WHERE "author" = %s;'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
 
         # Catch the creation data of the pull request(published_at and created_at have same data)
@@ -40,7 +40,7 @@ def pullRequests(connection, id):
         # Editor
         print("Searching for editor of pull request...")
         query = 'SELECT last_edited_at FROM "dv8fromtheworld/jda".pull_requests WHERE "editor" = %s;'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
 
         # Catch the data with last edit of pull request
@@ -57,11 +57,11 @@ def pullRequests(connection, id):
         # Participants
         print("Searching for participants in pull_requests database...")
         query = 'SELECT participants FROM "dv8fromtheworld/jda".pull_requests'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
 
         # Don't have any data to catch
-        if data.__str__().__contains__(id):
+        if data.__str__().__contains__(userid):
             print("User is participant of this pull request!\n")
             participantTuple = tuple(("ParticipantPullRequest", True))
         else:
@@ -71,7 +71,7 @@ def pullRequests(connection, id):
         # Author of merge
         print("Searching for author of merge in pull_requests database...")
         query = 'SELECT merged_at FROM "dv8fromtheworld/jda".pull_requests WHERE "merged_by" = %s;'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
 
         # Catch the data of merge
@@ -88,12 +88,12 @@ def pullRequests(connection, id):
         # Suggested Reviewers
         print("Searching for suggested reviewers in pull_requests database...")
         query = 'SELECT suggested_reviewers FROM "dv8fromtheworld/jda".pull_requests'
-        cursor.execute(query, (id,))
+        cursor.execute(query, (userid,))
         data = cursor.fetchall() #returns a list of tuples
         users = list(filter(lambda x: x[0] is not None, data))
 
         # Don't have any data to catch
-        if users.__str__().__contains__(id):
+        if users.__str__().__contains__(userid):
             print("User is a suggested reviewer!\n")
             suggestedReviewerTuple = tuple(("SuggestedReviewer", True))
         else:

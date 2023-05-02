@@ -1,11 +1,11 @@
 import psycopg2
 
-def retrieveActors(connection, id):
+def retrieveActors(connection, userid):
     try:
         cursor = connection.cursor()
 
         print("Searching for a user in database...")
-        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".actors WHERE "id" = %s;', (id,))
+        cursor.execute('SELECT * FROM "dv8fromtheworld/jda".actors WHERE "id" = %s;', (userid,))
         data = cursor.fetchall()
         #print(data[0][0])
         #print(type(data[0]))
