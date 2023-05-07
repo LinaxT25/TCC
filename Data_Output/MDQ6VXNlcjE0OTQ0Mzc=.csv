@@ -1,0 +1,15 @@
+Starred,
+Releases,
+Taggers,
+Reactions,
+Watcher,False
+AssigneeIssues,False
+AuthorIssue,"[datetime.datetime(2018, 11, 9, 0, 36, 48, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+EditorIssue,
+ParticipantIssue,True
+AssigneePullRequest,False
+AuthorPullRequest,
+EditorPullRequest,
+ParticipantPullRequest,False
+Merged,
+SuggestedReviewer,False

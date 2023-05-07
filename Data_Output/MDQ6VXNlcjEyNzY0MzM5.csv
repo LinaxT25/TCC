@@ -1,0 +1,15 @@
+Starred,
+Releases,
+Taggers,
+Reactions,"[datetime.datetime(2020, 4, 3, 16, 28, 45, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2020, 5, 24, 13, 0, 38, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+Watcher,False
+AssigneeIssues,False
+AuthorIssue,"[datetime.datetime(2020, 4, 3, 14, 31, 23, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+EditorIssue,"[datetime.datetime(2020, 4, 3, 16, 33, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+ParticipantIssue,True
+AssigneePullRequest,False
+AuthorPullRequest,
+EditorPullRequest,
+ParticipantPullRequest,False
+Merged,
+SuggestedReviewer,False

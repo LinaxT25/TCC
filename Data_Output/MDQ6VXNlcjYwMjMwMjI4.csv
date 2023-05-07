@@ -1,0 +1,15 @@
+Starred,
+Releases,
+Taggers,
+Reactions,"[datetime.datetime(2021, 6, 15, 18, 16, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+Watcher,False
+AssigneeIssues,False
+AuthorIssue,
+EditorIssue,
+ParticipantIssue,False
+AssigneePullRequest,False
+AuthorPullRequest,"[datetime.datetime(2020, 12, 20, 9, 29, 31, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+EditorPullRequest,
+ParticipantPullRequest,True
+Merged,
+SuggestedReviewer,False

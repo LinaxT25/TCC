@@ -10,7 +10,8 @@ if __name__ == '__main__':
     userID = input()
 
     connection = Connect.connect()
-    user = User.retrieveActors(connection, userID)
+    user = User.retrieveActor(connection, userID)
+    # userList = User.retrieveActors(connection)
 
     if user is not False:
         print("User found!\n")
@@ -21,8 +22,18 @@ if __name__ == '__main__':
 
         # for tuples in temporalTuple:
         #     print(tuples)
-
     else:
         print("User not found!\n")
+
+    # if userList is not False:
+    #     print("List of users found!\n")
+    #
+    #     for user in userList:
+    #         temporalTuple = DataSorting.sorting(connection, user[0])
+    #
+    #         DataExport.exportToCsv(temporalTuple, user[0])
+    #         DataExport.exportToJson(temporalTuple, user[0])
+    # else:
+    #     print("User not found!\n")
 
     Close.closeConnection(connection)

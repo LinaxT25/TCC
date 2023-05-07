@@ -1,0 +1,15 @@
+Starred,"[datetime.datetime(2018, 9, 25, 8, 3, 58, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+Releases,
+Taggers,
+Reactions,"[datetime.datetime(2017, 10, 17, 11, 33, 4, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 11, 33, 7, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Watcher,False
+AssigneeIssues,False
+AuthorIssue,"[datetime.datetime(2017, 10, 17, 11, 14, 27, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 16, 15, 51, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 16, 38, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 19, 20, 11, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2019, 1, 14, 20, 22, 5, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+EditorIssue,"[datetime.datetime(2017, 10, 17, 16, 39, 13, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+ParticipantIssue,True
+AssigneePullRequest,False
+AuthorPullRequest,
+EditorPullRequest,
+ParticipantPullRequest,False
+Merged,
+SuggestedReviewer,False

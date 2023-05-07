@@ -1,0 +1,15 @@
+Starred,"[datetime.datetime(2018, 2, 17, 17, 44, 45, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Releases,
+Taggers,
+Reactions,
+Watcher,False
+AssigneeIssues,False
+AuthorIssue,
+EditorIssue,
+ParticipantIssue,False
+AssigneePullRequest,False
+AuthorPullRequest,"[datetime.datetime(2019, 7, 11, 13, 31, 26, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+EditorPullRequest,
+ParticipantPullRequest,True
+Merged,
+SuggestedReviewer,False

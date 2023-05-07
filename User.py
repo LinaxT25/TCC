@@ -1,6 +1,6 @@
 import psycopg2
 
-def retrieveActors(connection, userid):
+def retrieveActor(connection, userid):
     try:
         cursor = connection.cursor()
 
@@ -11,6 +11,24 @@ def retrieveActors(connection, userid):
         if len(data) != 0:
             cursor.close()
             return True
+        else:
+            cursor.close()
+            return False
+    except(Exception, psycopg2.DatabaseError) as error:
+        print(error)
+
+
+def retrieveActors(connection):
+    try:
+        cursor = connection.cursor()
+
+        print("Searching for all users in database...")
+        cursor.execute('SELECT id FROM "dv8fromtheworld/jda".actors;')
+        data = cursor.fetchall()
+
+        if len(data) != 0:
+            cursor.close()
+            return data
         else:
             cursor.close()
             return False
