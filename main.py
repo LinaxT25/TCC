@@ -6,34 +6,51 @@ import DataExport
 
 if __name__ == '__main__':
 
-    print("Input the user ID.")
-    userID = input()
+    print("Select the type of data extraction:")
+    print("[1] Input the user ID.")
+    print("[2] Extract for all users.")
 
-    connection = Connect.connect()
-    user = User.retrieveActor(connection, userID)
-    # userList = User.retrieveActors(connection)
+    option = input()
 
-    if user is not False:
-        print("User found!\n")
-        temporalTuple = DataSorting.sorting(connection, userID)
+    if option == '1':
+        print("Input the user ID:")
+        userID = input()
 
-        DataExport.exportToCsv(temporalTuple, userID)
-        DataExport.exportToJson(temporalTuple, userID)
+        connection = Connect.connect()
+        user = User.retrieveActor(connection, userID)
 
-        # for tuples in temporalTuple:
-        #     print(tuples)
+        if user is not False:
+            print("User found!\n")
+            temporalTuple = DataSorting.sorting(connection, userID)
+
+            DataExport.exportToCsv(temporalTuple, userID)
+            DataExport.exportToJson(temporalTuple, userID)
+
+            # for tuples in temporalTuple:
+            #     print(tuples)
+        else:
+            print("User not found!\n")
+
+        Close.closeConnection(connection)
+
+    elif option == '2':
+
+        connection = Connect.connect()
+        userList = User.retrieveActors(connection)
+
+        if userList is not False:
+            print("List of users found!\n")
+
+            for user in userList:
+                temporalTuple = DataSorting.sorting(connection, user[0])
+
+                DataExport.exportToCsv(temporalTuple, user[0])
+                DataExport.exportToJson(temporalTuple, user[0])
+        else:
+            print("User not found!\n")
+
+        Close.closeConnection(connection)
+
     else:
-        print("User not found!\n")
+        print("Error in selection!")
 
-    # if userList is not False:
-    #     print("List of users found!\n")
-    #
-    #     for user in userList:
-    #         temporalTuple = DataSorting.sorting(connection, user[0])
-    #
-    #         DataExport.exportToCsv(temporalTuple, user[0])
-    #         DataExport.exportToJson(temporalTuple, user[0])
-    # else:
-    #     print("User not found!\n")
-
-    Close.closeConnection(connection)
