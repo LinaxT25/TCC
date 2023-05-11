@@ -1,15 +1,17 @@
-Starred,"[datetime.datetime(2019, 10, 11, 8, 1, 8, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+AuthorIssue,2019-06-29T11:14:31-04:00
+EditorIssue,2019-06-29T11:14:38-04:00
+Starred,2019-10-11T08:01:08-04:00
+AuthorPullRequest,2020-09-27T10:38:45-04:00
+AuthorPullRequest,2021-02-20T19:06:26-04:00
+AuthorPullRequest,2021-04-20T11:15:14-04:00
 Releases,
 Taggers,
 Reactions,
+EditorPullRequest,
+Merged,
 Watcher,False
 AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2019, 6, 29, 11, 14, 31, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,"[datetime.datetime(2019, 6, 29, 11, 14, 38, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2020, 9, 27, 10, 38, 45, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2021, 2, 20, 19, 6, 26, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2021, 4, 20, 11, 15, 14, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

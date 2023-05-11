@@ -1,9 +1,7 @@
 [
     [
         "Starred",
-        [
-            "2020-09-07T20:22:45-04:00"
-        ]
+        "2020-09-07T20:22:45-04:00"
     ],
     [
         "Releases",
@@ -18,28 +16,12 @@
         null
     ],
     [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        false
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -50,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
         false
     ],
     [
-        "Merged",
-        null
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
+        false
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

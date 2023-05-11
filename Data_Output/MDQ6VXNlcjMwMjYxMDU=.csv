@@ -1,15 +1,18 @@
-Starred,"[datetime.datetime(2016, 11, 15, 7, 50, 44, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Starred,2016-11-15T07:50:44-03:00
+AuthorPullRequest,2017-01-28T16:26:42-03:00
+AuthorPullRequest,2017-02-01T10:36:56-03:00
+AuthorPullRequest,2017-02-07T10:06:39-03:00
+AuthorPullRequest,2017-02-14T06:02:05-03:00
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+EditorPullRequest,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,False
 AssigneePullRequest,True
-AuthorPullRequest,"[datetime.datetime(2017, 1, 28, 16, 26, 42, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 2, 1, 10, 36, 56, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 2, 7, 10, 6, 39, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 2, 14, 6, 2, 5, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

@@ -1,5 +1,33 @@
 [
     [
+        "AuthorIssue",
+        "2018-05-05T13:06:27-04:00"
+    ],
+    [
+        "Reactions",
+        "2018-05-05T14:08:50-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2018-10-20T15:57:58-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2018-10-20T15:59:36-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2018-11-20T04:35:43-03:00"
+    ],
+    [
+        "EditorIssue",
+        "2018-11-20T04:36:23-03:00"
+    ],
+    [
+        "AuthorIssue",
+        "2019-07-31T15:53:50-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,12 +40,16 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2018-05-05T14:08:50-04:00",
-            "2018-05-05T14:08:55-04:00",
-            "2018-05-06T12:40:20-04:00"
-        ]
+        "AuthorPullRequest",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -28,22 +60,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        [
-            "2018-05-05T13:06:27-04:00",
-            "2018-10-20T15:57:58-04:00",
-            "2018-11-20T04:35:43-03:00",
-            "2019-07-31T15:53:50-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2018-10-20T15:59:36-04:00",
-            "2018-11-20T04:36:23-03:00"
-        ]
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -52,20 +68,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        null
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         false
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

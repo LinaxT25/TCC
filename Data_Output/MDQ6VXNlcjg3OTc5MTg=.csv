@@ -1,15 +1,15 @@
-Starred,"[datetime.datetime(2017, 1, 13, 16, 51, 48, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Starred,2017-01-13T16:51:48-03:00
+Reactions,2017-05-13T10:50:24-04:00
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 5, 13, 10, 50, 24, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2018, 3, 15, 18, 0, 54, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-Watcher,True
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,True
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

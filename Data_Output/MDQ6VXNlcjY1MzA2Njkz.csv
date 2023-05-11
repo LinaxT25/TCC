@@ -1,15 +1,15 @@
-Starred,"[datetime.datetime(2022, 8, 9, 14, 8, 29, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+Starred,2022-08-09T14:08:29-04:00
+AuthorIssue,2022-08-11T07:37:10-04:00
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2022, 8, 11, 7, 37, 10, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 EditorIssue,
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

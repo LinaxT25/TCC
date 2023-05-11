@@ -1,15 +1,15 @@
+AuthorPullRequest,2022-08-28T07:23:22-04:00
+EditorPullRequest,2022-08-29T03:32:48-04:00
 Starred,
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,False
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2022, 8, 28, 7, 23, 22, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,"[datetime.datetime(2022, 8, 29, 3, 32, 48, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

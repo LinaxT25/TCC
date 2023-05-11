@@ -1,5 +1,37 @@
 [
     [
+        "AuthorPullRequest",
+        "2016-07-05T20:44:33-04:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2016-07-05T21:25:32-04:00"
+    ],
+    [
+        "Reactions",
+        "2016-07-06T21:01:01-04:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2017-06-23T23:20:07-04:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2017-12-29T16:41:12-03:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2018-12-14T23:52:33-03:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2019-04-07T14:01:30-04:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2021-11-03T16:58:07-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,11 +44,20 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2016-07-06T21:01:01-04:00",
-            "2018-08-31T08:24:52-04:00"
-        ]
+        "AuthorIssue",
+        null
+    ],
+    [
+        "EditorIssue",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -27,14 +68,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        null
-    ],
-    [
-        "EditorIssue",
-        null
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -43,28 +76,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2016-07-05T20:44:33-04:00",
-            "2016-07-05T21:25:32-04:00",
-            "2017-06-23T23:20:07-04:00",
-            "2017-12-29T16:41:12-03:00",
-            "2018-12-14T23:52:33-03:00",
-            "2019-04-07T14:01:30-04:00",
-            "2021-11-03T16:58:07-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

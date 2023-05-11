@@ -1,9 +1,27 @@
 [
     [
+        "AuthorPullRequest",
+        "2017-08-20T07:04:38-04:00"
+    ],
+    [
         "Starred",
-        [
-            "2017-08-24T05:13:56-04:00"
-        ]
+        "2017-08-24T05:13:56-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2019-12-22T11:47:28-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2019-12-22T11:47:55-04:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2020-11-14T13:06:17-04:00"
+    ],
+    [
+        "Reactions",
+        "2021-06-11T06:30:04-04:00"
     ],
     [
         "Releases",
@@ -14,10 +32,12 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2021-06-11T06:30:04-04:00"
-        ]
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -28,18 +48,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        [
-            "2019-12-22T11:47:28-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2019-12-22T11:47:55-04:00"
-        ]
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -48,23 +56,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2017-08-20T07:04:38-04:00",
-            "2020-11-14T13:06:17-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

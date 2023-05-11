@@ -1,15 +1,19 @@
+AuthorPullRequest,2017-06-18T17:59:14-04:00
+EditorPullRequest,2017-06-19T01:28:19-04:00
+AuthorPullRequest,2017-07-20T07:23:50-04:00
+Reactions,2017-07-20T07:40:25-04:00
+AuthorPullRequest,2017-08-27T09:25:37-04:00
+AuthorPullRequest,2017-09-07T03:02:03-04:00
+AuthorPullRequest,2018-06-02T15:35:50-04:00
 Starred,
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 7, 20, 7, 40, 25, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2017, 6, 18, 17, 59, 14, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 7, 20, 7, 23, 50, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 8, 27, 9, 25, 37, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 9, 7, 3, 2, 3, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2018, 6, 2, 15, 35, 50, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,"[datetime.datetime(2017, 6, 19, 1, 28, 19, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

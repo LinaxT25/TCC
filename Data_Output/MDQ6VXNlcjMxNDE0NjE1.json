@@ -1,9 +1,11 @@
 [
     [
         "Starred",
-        [
-            "2018-02-17T17:44:45-03:00"
-        ]
+        "2018-02-17T17:44:45-03:00"
+    ],
+    [
+        "AuthorPullRequest",
+        "2019-07-11T13:31:26-04:00"
     ],
     [
         "Releases",
@@ -18,20 +20,28 @@
         null
     ],
     [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
+        false
+    ],
+    [
+        "AssigneeIssues",
+        false
     ],
     [
         "ParticipantIssue",
@@ -42,22 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2019-07-11T13:31:26-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

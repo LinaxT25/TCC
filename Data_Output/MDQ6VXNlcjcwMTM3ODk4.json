@@ -1,5 +1,13 @@
 [
     [
+        "AuthorPullRequest",
+        "2021-10-22T14:32:22-04:00"
+    ],
+    [
+        "Reactions",
+        "2021-12-14T11:47:56-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,10 +20,20 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2021-12-14T11:47:56-04:00"
-        ]
+        "AuthorIssue",
+        null
+    ],
+    [
+        "EditorIssue",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -26,14 +44,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        null
-    ],
-    [
-        "EditorIssue",
-        null
-    ],
-    [
         "ParticipantIssue",
         false
     ],
@@ -42,22 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2021-10-22T14:32:22-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

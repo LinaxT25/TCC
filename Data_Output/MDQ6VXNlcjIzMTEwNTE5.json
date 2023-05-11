@@ -1,5 +1,9 @@
 [
     [
+        "Reactions",
+        "2017-11-21T21:28:38-03:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,34 +16,12 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2017-11-21T21:28:38-03:00"
-        ]
-    ],
-    [
-        "Watcher",
-        true
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        false
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -50,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
+        true
+    ],
+    [
+        "AssigneeIssues",
         false
     ],
     [
-        "Merged",
-        null
+        "ParticipantIssue",
+        false
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

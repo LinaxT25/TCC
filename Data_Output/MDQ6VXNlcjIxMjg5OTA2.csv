@@ -1,15 +1,15 @@
-Starred,"[datetime.datetime(2021, 8, 3, 7, 34, 41, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+AuthorIssue,2021-07-19T06:26:26-04:00
+EditorIssue,2021-07-19T06:26:48-04:00
+Starred,2021-08-03T07:34:41-04:00
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2021, 7, 19, 6, 26, 26, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,"[datetime.datetime(2021, 7, 19, 6, 26, 48, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

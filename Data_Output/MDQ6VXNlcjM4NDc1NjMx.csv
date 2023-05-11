@@ -1,15 +1,16 @@
+AuthorIssue,2020-08-12T07:19:22-04:00
+AuthorIssue,2022-05-01T09:14:41-04:00
 Starred,
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2020, 8, 12, 7, 19, 22, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2022, 5, 1, 9, 14, 41, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 EditorIssue,
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

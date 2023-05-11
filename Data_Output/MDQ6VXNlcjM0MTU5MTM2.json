@@ -1,5 +1,9 @@
 [
     [
+        "Reactions",
+        "2020-08-26T07:32:44-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,36 +16,12 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2020-07-18T03:22:15-04:00",
-            "2020-08-02T02:55:16-04:00",
-            "2020-08-26T07:32:44-04:00"
-        ]
-    ],
-    [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        true
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -52,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
         false
     ],
     [
-        "Merged",
-        null
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
+        true
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

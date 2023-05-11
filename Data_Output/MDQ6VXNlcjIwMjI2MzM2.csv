@@ -1,15 +1,16 @@
-Starred,"[datetime.datetime(2022, 4, 12, 10, 15, 28, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+AuthorPullRequest,2021-09-14T12:43:40-04:00
+AuthorIssue,2022-04-03T08:23:13-04:00
+AuthorPullRequest,2022-04-03T08:41:16-04:00
+Starred,2022-04-12T10:15:28-04:00
 Releases,
 Taggers,
 Reactions,
+EditorIssue,
+EditorPullRequest,
+Merged,
 Watcher,False
 AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2022, 4, 3, 8, 23, 13, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2021, 9, 14, 12, 43, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2022, 4, 3, 8, 41, 16, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

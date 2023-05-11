@@ -1,9 +1,19 @@
 [
     [
+        "Reactions",
+        "2022-05-21T23:12:59-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2022-05-27T00:09:12-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2022-05-27T15:44:41-04:00"
+    ],
+    [
         "Starred",
-        [
-            "2022-06-17T18:06:50-04:00"
-        ]
+        "2022-06-17T18:06:50-04:00"
     ],
     [
         "Releases",
@@ -14,10 +24,16 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2022-05-21T23:12:59-04:00"
-        ]
+        "AuthorPullRequest",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -28,18 +44,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        [
-            "2022-05-27T00:09:12-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2022-05-27T15:44:41-04:00"
-        ]
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -48,20 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        null
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         false
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

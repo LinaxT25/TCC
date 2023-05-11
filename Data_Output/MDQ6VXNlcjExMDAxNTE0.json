@@ -1,9 +1,11 @@
 [
     [
+        "Reactions",
+        "2019-05-29T23:51:54-04:00"
+    ],
+    [
         "Starred",
-        [
-            "2019-06-13T01:55:15-04:00"
-        ]
+        "2019-06-13T01:55:15-04:00"
     ],
     [
         "Releases",
@@ -14,34 +16,12 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2019-05-29T23:51:54-04:00"
-        ]
-    ],
-    [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        true
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -52,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
         false
     ],
     [
-        "Merged",
-        null
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
+        true
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

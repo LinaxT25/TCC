@@ -1,15 +1,19 @@
-Starred,"[datetime.datetime(2016, 11, 20, 19, 47, 9, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Starred,2016-11-20T19:47:09-03:00
+AuthorPullRequest,2017-02-07T18:03:48-03:00
+AuthorPullRequest,2017-02-07T18:36:04-03:00
+AuthorPullRequest,2017-02-21T13:43:10-04:00
+AuthorPullRequest,2017-02-25T03:14:25-04:00
+EditorPullRequest,2017-02-25T17:20:36-04:00
+AuthorPullRequest,2017-04-18T08:23:43-04:00
+Reactions,2017-06-13T14:32:30-04:00
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 6, 4, 15, 32, 39, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 6, 13, 14, 32, 30, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 6, 18, 12, 45, 24, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 7, 20, 8, 10, 42, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 8, 3, 9, 20, 28, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 8, 3, 9, 40, 59, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2017, 2, 7, 18, 3, 48, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 2, 7, 18, 36, 4, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 2, 21, 13, 43, 10, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 2, 25, 3, 14, 25, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 4, 18, 8, 23, 43, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,"[datetime.datetime(2017, 2, 25, 17, 20, 36, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

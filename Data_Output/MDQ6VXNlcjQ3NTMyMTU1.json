@@ -1,9 +1,43 @@
 [
     [
         "Starred",
-        [
-            "2020-05-15T05:17:16-04:00"
-        ]
+        "2020-05-15T05:17:16-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2020-05-15T08:36:38-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2020-05-27T12:43:50-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2020-07-08T09:59:27-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2020-07-08T09:59:58-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2020-07-08T10:02:37-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2020-09-07T10:48:06-04:00"
+    ],
+    [
+        "Reactions",
+        "2020-09-07T10:55:33-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2021-07-03T02:02:11-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2021-07-03T02:02:38-04:00"
     ],
     [
         "Releases",
@@ -14,10 +48,16 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2020-09-07T10:55:33-04:00"
-        ]
+        "AuthorPullRequest",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -28,24 +68,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        [
-            "2020-05-15T08:36:38-04:00",
-            "2020-05-27T12:43:50-04:00",
-            "2020-07-08T09:59:27-04:00",
-            "2020-07-08T10:02:37-04:00",
-            "2020-09-07T10:48:06-04:00",
-            "2021-07-03T02:02:11-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2020-07-08T09:59:58-04:00",
-            "2021-07-03T02:02:38-04:00"
-        ]
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -54,20 +76,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        null
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         false
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

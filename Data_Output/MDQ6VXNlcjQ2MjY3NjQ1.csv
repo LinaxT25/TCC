@@ -1,15 +1,15 @@
+AuthorIssue,2020-09-07T21:00:51-04:00
+EditorIssue,2020-09-07T21:01:06-04:00
 Starred,
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2020, 9, 7, 21, 0, 51, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,"[datetime.datetime(2020, 9, 7, 21, 1, 6, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

@@ -7,42 +7,92 @@ import Issues
 import PullRequests
 def sorting(connection, userid):
 
-    # Possible optimization: Search if some function only can return one data then sorting is not necessary
-    stargazers = Stargazers.starredUser(connection, userid)  # Return data to sort
-    releases = Releases.releaseUser(connection, userid)  # Return data to sort
-    taggers = Taggers.tagger(connection, userid)  # Return data to sort
-    reactions = Reactions.reactedUser(connection, userid)  # Return data to sort
+    finalDataList = [] # Contains all actions with data of a user inside
 
-    watchers = Watchers.watching(connection, userid)  # Only return true or false
+    # The format of returns is a tuple(name of action(str), list of tuples with data)
+    stargazers = Stargazers.starredUser(connection, userid)  # Return only one data to sort
+    releases = Releases.releaseUser(connection, userid)
+    taggers = Taggers.tagger(connection, userid)
+    reactions = Reactions.reactedUser(connection, userid)
 
-    issues = Issues.issues(connection, userid)  # Diverse tuple return
-    pullRequests = PullRequests.pullRequests(connection, userid)  # Diverse tuple return
+    # The return is a tuple(name of action(str), boolean)
+    watchers = Watchers.watching(connection, userid)
 
-    # Splitting the unordered tuple in str and data, then sorting the data and joining again
-    stargazers =  tuple((stargazers[0], None if stargazers[1] is None else sorted(stargazers[1])))
-    releases = tuple((releases[0], None if releases[1] is None else sorted(releases[1])))
-    taggers = tuple((taggers[0], None if taggers[1] is None else sorted(taggers[1])))
-    reactions = tuple((reactions[0], None if reactions[1] is None else sorted(reactions[1])))
+    # For issues and pull request the format of return is unique for being a joined tuples
+    issues = Issues.issues(connection, userid)
+    pullRequests = PullRequests.pullRequests(connection, userid)
 
-    # For the giant tuples in issues and pull request, split then in minor tuples
-    assigneeIssues = tuple((issues[0], issues[1]))
-    authorIssue = tuple((issues[2], None if issues[3] is None else sorted(issues[3])))
-    editorIssue = tuple((issues[4], None if issues[5] is None else sorted(issues[5])))
-    participantIssue = tuple((issues[6], issues[7]))
+    # Now get all data returned and join them in a list to obtain all actions in same format
+    # Only return one data, but to prevent any issues uses same format of the rest
+    for tuples in stargazers[1:]:
+        if tuples is None:
+            finalDataList.append(tuple((stargazers[0], None)))
+        else:
+            finalDataList.append(tuple((stargazers[0], tuples[0].isoformat())))
 
-    assigneePullRequest = tuple((pullRequests[0], pullRequests[1]))
-    authorPullRequest = tuple((pullRequests[2], None if pullRequests[3] is None else sorted(pullRequests[3])))
-    editorPullRequest = tuple((pullRequests[4], None if pullRequests[5] is None else sorted(pullRequests[5])))
-    participantPullRequest = tuple((pullRequests[6], pullRequests[7]))
-    mergedPullRequest = tuple((pullRequests[8], None if pullRequests[9] is None else sorted(pullRequests[9])))
-    suggestedReviewerPullRequest = tuple((pullRequests[10], pullRequests[11]))
+    for tuples in releases[1:]:
+        if tuples is None:
+            finalDataList.append(tuple((releases[0], None)))
+        else:
+            finalDataList.append(tuple((releases[0], tuples[0].isoformat())))
 
-    finalTuple = tuple((
-        stargazers, releases, taggers, reactions, watchers, assigneeIssues, authorIssue, editorIssue,
-        participantIssue, assigneePullRequest, authorPullRequest, editorPullRequest, participantPullRequest,
-        mergedPullRequest, suggestedReviewerPullRequest))
+    # Already have the iso format so convert is not necessary
+    for tuples in taggers[1:]:
+        if tuples is None:
+            finalDataList.append(tuple((taggers[0], None)))
+        else:
+            finalDataList.append(tuple((taggers[0], tuples[0])))
 
-    return finalTuple
+    for tuples in reactions[1:]:
+        if tuples is None:
+            finalDataList.append(tuple((reactions[0], None)))
+        else:
+            finalDataList.append(tuple((reactions[0], tuples[0].isoformat())))
+
+    # Issues
+    if issues[3] is None:
+        finalDataList.append(tuple((issues[2], None)))
+    else:
+        for tuples in issues[3]:
+            finalDataList.append(tuple((issues[2], tuples.isoformat())))
+
+    if issues[5] is None:
+        finalDataList.append(tuple((issues[4], None)))
+    else:
+        for tuples in issues[5]:
+            finalDataList.append(tuple((issues[4], tuples.isoformat())))
+
+    # Pull Requests
+    if pullRequests[3] is None:
+        finalDataList.append(tuple((pullRequests[2], None)))
+    else:
+        for tuples in pullRequests[3]:
+            finalDataList.append(tuple((pullRequests[2], tuples.isoformat())))
+
+    if pullRequests[5] is None:
+        finalDataList.append(tuple((pullRequests[4], None)))
+    else:
+        for tuples in pullRequests[5]:
+            finalDataList.append(tuple((pullRequests[4], tuples.isoformat())))
+
+    if pullRequests[9] is None:
+        finalDataList.append(tuple((pullRequests[8], None)))
+    else:
+        for tuples in pullRequests[9]:
+            finalDataList.append(tuple((pullRequests[8], tuples.isoformat())))
+
+    # Sorting the data before insert the bools
+    finalDataList.sort(key=lambda x: (x[1] is None, x[1]), reverse=False)
+
+    # Append in the end of list all boolean values
+    finalDataList.append(tuple((watchers[0], watchers[1])))
+    finalDataList.append(tuple((issues[0], issues[1])))
+    finalDataList.append(tuple((issues[6], issues[7])))
+    finalDataList.append(tuple((pullRequests[0], pullRequests[1])))
+    finalDataList.append(tuple((pullRequests[6], pullRequests[7])))
+    finalDataList.append(tuple((pullRequests[10], pullRequests[11])))
+
+    return finalDataList
 
 
 

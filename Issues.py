@@ -7,7 +7,7 @@ def issues(connection, userid):
         # Assignees
         print("Searching for assignees in issues database...")
         query = 'SELECT assignees FROM "dv8fromtheworld/jda".issues'
-        cursor.execute(query, (userid,))
+        cursor.execute(query)
         data = cursor.fetchall() #returns a list of tuples
         users = list(filter(lambda x: x[0] is not None, data))
 
@@ -56,7 +56,7 @@ def issues(connection, userid):
         # Participants
         print("Searching for participants in issues database...")
         query = 'SELECT participants FROM "dv8fromtheworld/jda".issues'
-        cursor.execute(query, (userid,))
+        cursor.execute(query)
         data = cursor.fetchall() #returns a list of tuples
 
         # Don't have any data to catch

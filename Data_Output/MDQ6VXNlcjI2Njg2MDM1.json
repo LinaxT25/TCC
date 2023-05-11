@@ -1,5 +1,9 @@
 [
     [
+        "Reactions",
+        "2021-06-11T08:04:30-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,37 +16,12 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2021-06-11T08:04:30-04:00",
-            "2021-06-11T08:04:31-04:00",
-            "2021-06-11T08:04:32-04:00",
-            "2021-06-11T08:04:32-04:00"
-        ]
-    ],
-    [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        true
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -53,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
+        false
+    ],
+    [
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
         true
     ],
     [
-        "Merged",
-        null
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        true
     ],
     [
         "SuggestedReviewer",

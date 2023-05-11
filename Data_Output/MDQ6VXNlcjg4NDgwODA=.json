@@ -1,9 +1,15 @@
 [
     [
+        "Reactions",
+        "2017-08-02T17:42:24-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2017-08-03T21:14:08-04:00"
+    ],
+    [
         "Starred",
-        [
-            "2017-08-03T21:32:03-04:00"
-        ]
+        "2017-08-03T21:32:03-04:00"
     ],
     [
         "Releases",
@@ -14,39 +20,8 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2017-08-02T17:42:24-04:00",
-            "2017-08-03T21:29:02-04:00",
-            "2018-02-03T03:18:43-03:00",
-            "2018-02-03T03:18:47-03:00"
-        ]
-    ],
-    [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
-        "AuthorIssue",
-        [
-            "2017-08-03T21:14:08-04:00"
-        ]
-    ],
-    [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        true
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -57,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
         false
     ],
     [
-        "Merged",
-        null
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
+        true
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

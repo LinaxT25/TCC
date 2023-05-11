@@ -1,5 +1,17 @@
 [
     [
+        "AuthorPullRequest",
+        "2019-08-19T10:32:07-04:00"
+    ],
+    [
+        "Reactions",
+        "2019-08-20T09:48:37-04:00"
+    ],
+    [
+        "EditorPullRequest",
+        "2019-08-20T09:58:26-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,11 +24,16 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2019-08-20T09:48:37-04:00",
-            "2019-08-20T10:32:06-04:00"
-        ]
+        "AuthorIssue",
+        null
+    ],
+    [
+        "EditorIssue",
+        null
+    ],
+    [
+        "Merged",
+        null
     ],
     [
         "Watcher",
@@ -27,14 +44,6 @@
         false
     ],
     [
-        "AuthorIssue",
-        null
-    ],
-    [
-        "EditorIssue",
-        null
-    ],
-    [
         "ParticipantIssue",
         true
     ],
@@ -43,24 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2019-08-19T10:32:07-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        [
-            "2019-08-20T09:58:26-04:00"
-        ]
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

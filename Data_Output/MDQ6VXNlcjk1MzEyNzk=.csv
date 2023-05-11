@@ -1,15 +1,15 @@
-Starred,"[datetime.datetime(2018, 5, 2, 0, 52, 25, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+Starred,2018-05-02T00:52:25-04:00
+AuthorPullRequest,2020-01-18T23:37:05-04:00
+EditorPullRequest,2020-01-18T23:37:17-04:00
+Reactions,2020-01-21T00:44:17-04:00
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2020, 1, 21, 0, 44, 17, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,False
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2020, 1, 18, 23, 37, 5, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,"[datetime.datetime(2020, 1, 18, 23, 37, 17, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

@@ -1,5 +1,13 @@
 [
     [
+        "AuthorPullRequest",
+        "2018-03-11T11:43:34-04:00"
+    ],
+    [
+        "EditorPullRequest",
+        "2018-03-11T11:43:41-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -16,20 +24,24 @@
         null
     ],
     [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
         "AuthorIssue",
         null
     ],
     [
         "EditorIssue",
         null
+    ],
+    [
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
+        false
+    ],
+    [
+        "AssigneeIssues",
+        false
     ],
     [
         "ParticipantIssue",
@@ -40,24 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        [
-            "2018-03-11T11:43:34-04:00"
-        ]
-    ],
-    [
-        "EditorPullRequest",
-        [
-            "2018-03-11T11:43:41-04:00"
-        ]
-    ],
-    [
         "ParticipantPullRequest",
         true
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

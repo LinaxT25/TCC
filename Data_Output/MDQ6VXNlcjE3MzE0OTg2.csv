@@ -1,15 +1,16 @@
+AuthorPullRequest,2017-03-12T10:25:42-04:00
+Reactions,2017-03-12T11:00:56-04:00
+AuthorPullRequest,2017-03-12T12:32:37-04:00
 Starred,
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 3, 12, 11, 0, 56, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
+EditorPullRequest,
+Merged,
+Watcher,False
+AssigneeIssues,False
 ParticipantIssue,False
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2017, 3, 12, 10, 25, 42, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 3, 12, 12, 32, 37, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

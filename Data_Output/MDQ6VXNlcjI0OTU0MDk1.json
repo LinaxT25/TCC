@@ -1,5 +1,13 @@
 [
     [
+        "AuthorIssue",
+        "2020-07-18T05:56:29-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2020-07-18T06:12:58-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -16,24 +24,24 @@
         null
     ],
     [
+        "AuthorPullRequest",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
+    ],
+    [
         "Watcher",
         false
     ],
     [
         "AssigneeIssues",
         false
-    ],
-    [
-        "AuthorIssue",
-        [
-            "2020-07-18T05:56:29-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2020-07-18T06:12:58-04:00"
-        ]
     ],
     [
         "ParticipantIssue",
@@ -44,20 +52,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        null
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         false
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

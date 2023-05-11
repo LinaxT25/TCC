@@ -1,15 +1,19 @@
-Starred,"[datetime.datetime(2018, 9, 25, 8, 3, 58, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+AuthorIssue,2017-10-17T11:14:27-03:00
+Reactions,2017-10-17T11:33:04-03:00
+AuthorIssue,2017-10-17T16:15:51-03:00
+AuthorIssue,2017-10-17T16:38:40-03:00
+EditorIssue,2017-10-17T16:39:13-03:00
+AuthorIssue,2017-10-17T19:20:11-03:00
+Starred,2018-09-25T08:03:58-04:00
+AuthorIssue,2019-01-14T20:22:05-03:00
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 10, 17, 11, 33, 4, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 11, 33, 7, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2017, 10, 17, 11, 14, 27, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 16, 15, 51, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 16, 38, 40, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2017, 10, 17, 19, 20, 11, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600))), datetime.datetime(2019, 1, 14, 20, 22, 5, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-EditorIssue,"[datetime.datetime(2017, 10, 17, 16, 39, 13, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

@@ -1,15 +1,15 @@
+AuthorIssue,2018-12-03T18:27:55-03:00
+EditorIssue,2018-12-03T18:30:14-03:00
 Starred,
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2018, 12, 3, 18, 27, 55, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-EditorIssue,"[datetime.datetime(2018, 12, 3, 18, 30, 14, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
-ParticipantIssue,True
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,True
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False

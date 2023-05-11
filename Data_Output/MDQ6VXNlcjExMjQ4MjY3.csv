@@ -1,15 +1,17 @@
+AuthorPullRequest,2018-02-24T08:35:49-04:00
+AuthorPullRequest,2018-04-20T09:48:03-04:00
+AuthorIssue,2020-01-16T18:45:58-04:00
+Reactions,2020-01-17T15:58:59-04:00
+AuthorIssue,2021-03-21T07:45:27-04:00
 Starred,
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2018, 4, 20, 10, 13, 16, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2020, 1, 17, 15, 58, 59, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2020, 5, 29, 11, 19, 3, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+EditorIssue,
+EditorPullRequest,
+Merged,
 Watcher,False
 AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2020, 1, 16, 18, 45, 58, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2021, 3, 21, 7, 45, 27, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2018, 2, 24, 8, 35, 49, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2018, 4, 20, 9, 48, 3, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

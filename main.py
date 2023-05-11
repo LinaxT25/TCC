@@ -25,9 +25,6 @@ if __name__ == '__main__':
 
             DataExport.exportToCsv(temporalTuple, userID)
             DataExport.exportToJson(temporalTuple, userID)
-
-            # for tuples in temporalTuple:
-            #     print(tuples)
         else:
             print("User not found!\n")
 

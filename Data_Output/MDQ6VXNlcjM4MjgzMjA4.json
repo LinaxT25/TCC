@@ -1,5 +1,13 @@
 [
     [
+        "AuthorIssue",
+        "2020-04-10T08:51:01-04:00"
+    ],
+    [
+        "Reactions",
+        "2020-04-10T11:10:29-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -12,36 +20,8 @@
         null
     ],
     [
-        "Reactions",
-        [
-            "2020-04-10T11:10:29-04:00"
-        ]
-    ],
-    [
-        "Watcher",
-        false
-    ],
-    [
-        "AssigneeIssues",
-        false
-    ],
-    [
-        "AuthorIssue",
-        [
-            "2020-04-10T08:51:01-04:00"
-        ]
-    ],
-    [
         "EditorIssue",
         null
-    ],
-    [
-        "ParticipantIssue",
-        true
-    ],
-    [
-        "AssigneePullRequest",
-        false
     ],
     [
         "AuthorPullRequest",
@@ -52,12 +32,28 @@
         null
     ],
     [
-        "ParticipantPullRequest",
+        "Merged",
+        null
+    ],
+    [
+        "Watcher",
         false
     ],
     [
-        "Merged",
-        null
+        "AssigneeIssues",
+        false
+    ],
+    [
+        "ParticipantIssue",
+        true
+    ],
+    [
+        "AssigneePullRequest",
+        false
+    ],
+    [
+        "ParticipantPullRequest",
+        false
     ],
     [
         "SuggestedReviewer",

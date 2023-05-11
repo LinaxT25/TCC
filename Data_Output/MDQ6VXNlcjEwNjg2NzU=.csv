@@ -1,15 +1,16 @@
+AuthorIssue,2017-07-28T05:58:13-04:00
+AuthorIssue,2017-07-28T06:03:58-04:00
+Reactions,2017-07-28T16:26:29-04:00
+AuthorPullRequest,2017-08-07T14:37:49-04:00
+EditorPullRequest,2017-08-07T14:43:16-04:00
 Starred,
 Releases,
 Taggers,
-Reactions,"[datetime.datetime(2017, 7, 28, 16, 26, 29, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
+EditorIssue,
+Merged,
 Watcher,False
 AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2017, 7, 28, 5, 58, 13, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2017, 7, 28, 6, 3, 58, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2017, 8, 7, 14, 37, 49, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,"[datetime.datetime(2017, 8, 7, 14, 43, 16, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

@@ -1,5 +1,17 @@
 [
     [
+        "AuthorIssue",
+        "2022-09-20T16:36:55-04:00"
+    ],
+    [
+        "EditorIssue",
+        "2022-09-20T16:39:21-04:00"
+    ],
+    [
+        "AuthorIssue",
+        "2022-11-13T10:52:37-04:00"
+    ],
+    [
         "Starred",
         null
     ],
@@ -16,25 +28,24 @@
         null
     ],
     [
+        "AuthorPullRequest",
+        null
+    ],
+    [
+        "EditorPullRequest",
+        null
+    ],
+    [
+        "Merged",
+        null
+    ],
+    [
         "Watcher",
         false
     ],
     [
         "AssigneeIssues",
         false
-    ],
-    [
-        "AuthorIssue",
-        [
-            "2022-09-20T16:36:55-04:00",
-            "2022-11-13T10:52:37-04:00"
-        ]
-    ],
-    [
-        "EditorIssue",
-        [
-            "2022-09-20T16:39:21-04:00"
-        ]
     ],
     [
         "ParticipantIssue",
@@ -45,20 +56,8 @@
         false
     ],
     [
-        "AuthorPullRequest",
-        null
-    ],
-    [
-        "EditorPullRequest",
-        null
-    ],
-    [
         "ParticipantPullRequest",
         false
-    ],
-    [
-        "Merged",
-        null
     ],
     [
         "SuggestedReviewer",

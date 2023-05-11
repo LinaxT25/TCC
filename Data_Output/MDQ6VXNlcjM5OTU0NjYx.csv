@@ -1,15 +1,16 @@
+AuthorPullRequest,2020-12-28T20:31:06-04:00
+AuthorPullRequest,2020-12-31T10:35:03-04:00
+AuthorIssue,2021-04-28T15:51:03-04:00
 Starred,
 Releases,
 Taggers,
 Reactions,
+EditorIssue,
+EditorPullRequest,
+Merged,
 Watcher,False
 AssigneeIssues,False
-AuthorIssue,"[datetime.datetime(2021, 4, 28, 15, 51, 3, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorIssue,
 ParticipantIssue,True
 AssigneePullRequest,False
-AuthorPullRequest,"[datetime.datetime(2020, 12, 28, 20, 31, 6, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000))), datetime.datetime(2020, 12, 31, 10, 35, 3, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=72000)))]"
-EditorPullRequest,
 ParticipantPullRequest,True
-Merged,
 SuggestedReviewer,False

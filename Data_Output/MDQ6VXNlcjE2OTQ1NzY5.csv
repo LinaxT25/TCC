@@ -1,15 +1,15 @@
-Starred,"[datetime.datetime(2017, 1, 21, 10, 30, 57, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=75600)))]"
+Starred,2017-01-21T10:30:57-03:00
 Releases,
 Taggers,
 Reactions,
-Watcher,False
-AssigneeIssues,False
 AuthorIssue,
 EditorIssue,
-ParticipantIssue,False
-AssigneePullRequest,False
 AuthorPullRequest,
 EditorPullRequest,
-ParticipantPullRequest,False
 Merged,
+Watcher,False
+AssigneeIssues,False
+ParticipantIssue,False
+AssigneePullRequest,False
+ParticipantPullRequest,False
 SuggestedReviewer,False
