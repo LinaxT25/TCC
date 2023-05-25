@@ -14,28 +14,19 @@ def exportToCsv(finaltuple, userid):
 
     filename = userid + ".csv"
     with open(os.path.join(newDir,filename), 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True,)
         try:
-            writer.writerows(finaltuple)
+            for i in range(len(finaltuple)):
+                writer.writerow((i + 1, finaltuple[i][0], finaltuple[i][1]))
         except csv.Error as e:
             sys.exit(e)
 
-def exportToJson(finaltuple, userid):
-    # Creating a new directory for data to be exported
-    dirPath = os.getcwd()
-    newDir = os.path.join(dirPath, "Data_Output") # Joined paths to be compatible with more OS
+def exportToDB(finaltuple, userid, connect):
+    cursor = connect.cursor()
 
-    if not os.path.exists(newDir):
-        os.makedirs(newDir)
+    cursor.execute('select exists(select * from "dv8fromtheworld/jda".tables where table_name=%s)', ('standard',))
 
-    filename = userid + ".json"
-    with open(os.path.join(newDir,filename), 'w', encoding='utf-8') as file:
-        try:
-            # Default receive the function convertData to convert the datatime object in ISO
-            json.dump(finaltuple, file, ensure_ascii=False, default=convertData, indent=4, sort_keys=True)
-        except json.JSONDecodeError as e:
-            sys.exit(e)
+    if cursor.fetchone()[0] is False:
+        create = 'CREATE TABLE "dv8fromtheworld/jda".standard (user_id text,activity text,activity_date date);'
+        cursor.execute(create)
 
-def convertData(tuples):
-    if isinstance(tuples, (datetime, date)):
-        return tuples.isoformat()

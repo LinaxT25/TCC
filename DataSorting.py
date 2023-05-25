@@ -26,9 +26,9 @@ def sorting(connection, userid):
     # Only return one data, but to prevent any issues uses same format of the rest
     for tuples in stargazers[1:]:
         if tuples is None:
-            finalDataList.append(tuple((stargazers[0], None)))
+            finalDataList.append(tuple((str(stargazers[0]), None)))
         else:
-            finalDataList.append(tuple((stargazers[0], tuples[0].isoformat())))
+            finalDataList.append(tuple((str(stargazers[0]), tuples[0].isoformat())))
 
     for tuples in releases[1:]:
         if tuples is None:

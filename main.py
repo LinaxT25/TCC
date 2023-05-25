@@ -1,6 +1,4 @@
-import Connect
-import Close
-import User
+from BD import Close, Connect, User
 import DataSorting
 import DataExport
 
@@ -24,7 +22,6 @@ if __name__ == '__main__':
             temporalTuple = DataSorting.sorting(connection, userID)
 
             DataExport.exportToCsv(temporalTuple, userID)
-            DataExport.exportToJson(temporalTuple, userID)
         else:
             print("User not found!\n")
 
@@ -42,7 +39,6 @@ if __name__ == '__main__':
                 temporalTuple = DataSorting.sorting(connection, user[0])
 
                 DataExport.exportToCsv(temporalTuple, user[0])
-                DataExport.exportToJson(temporalTuple, user[0])
         else:
             print("User not found!\n")
 
