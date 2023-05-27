@@ -1,2 +1,3 @@
-Data_Output
-venv
+/Data_Output
+/venv
+/__pycache__
