@@ -4,6 +4,9 @@ import sys
 import json
 import os
 
+import psycopg2
+
+
 def exportToCsv(finaltuple, userid):
     # Creating a new directory for data to be exported
     dirPath = os.getcwd()
@@ -22,11 +25,24 @@ def exportToCsv(finaltuple, userid):
             sys.exit(e)
 
 def exportToDB(finaltuple, userid, connect):
-    cursor = connect.cursor()
+    try:
+        cursor = connect.cursor()
 
-    cursor.execute('select exists(select * from "dv8fromtheworld/jda".tables where table_name=%s)', ('standard',))
+        cursor.execute('select exists(select * from information_schema.tables where table_name=%s)', ('standard',))
+        # Check if table exists
+        if cursor.fetchone()[0] is False:
+            create = 'CREATE TABLE "dv8fromtheworld/jda".standard (user_id text,activity text,activity_date date);'
+            cursor.execute(create)
+            connect.commit()
 
-    if cursor.fetchone()[0] is False:
-        create = 'CREATE TABLE "dv8fromtheworld/jda".standard (user_id text,activity text,activity_date date);'
-        cursor.execute(create)
+        filteredtuple = list(filter(lambda x: x[1] is not None, finaltuple))
 
+        # Remove the 6 values boolean with has been appended in the end of tuple
+        for i in range(len(filteredtuple) - 6):
+            insert = 'INSERT INTO "dv8fromtheworld/jda".standard VALUES(%s, %s, %s);'
+            cursor.execute(insert, (userid, filteredtuple[i][0], filteredtuple[i][1]))
+
+        connect.commit()
+        cursor.close()
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)

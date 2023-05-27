@@ -22,6 +22,7 @@ if __name__ == '__main__':
             temporalTuple = DataSorting.sorting(connection, userID)
 
             DataExport.exportToCsv(temporalTuple, userID)
+            DataExport.exportToDB(temporalTuple, userID, connection)
         else:
             print("User not found!\n")
 
@@ -39,6 +40,7 @@ if __name__ == '__main__':
                 temporalTuple = DataSorting.sorting(connection, user[0])
 
                 DataExport.exportToCsv(temporalTuple, user[0])
+                DataExport.exportToDB(temporalTuple, user[0], connection)
         else:
             print("User not found!\n")
 
