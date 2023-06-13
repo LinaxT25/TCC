@@ -1,7 +1,6 @@
 from datetime import date,datetime
 import csv
 import sys
-import json
 import os
 
 import psycopg2
@@ -28,8 +27,9 @@ def exportToDB(finaltuple, userid, connect):
     try:
         cursor = connect.cursor()
 
-        cursor.execute('select exists(select * from information_schema.tables where table_name=%s)', ('standard',))
-        # Check if table exists
+        cursor.execute('select exists(select * from information_schema.tables where table_name=%s)',
+                       ('standard',))
+
         if cursor.fetchone()[0] is False:
             create = 'CREATE TABLE "dv8fromtheworld/jda".standard (user_id text,activity text,activity_date date);'
             cursor.execute(create)

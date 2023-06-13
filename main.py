@@ -1,8 +1,10 @@
 from BD import Close, Connect, User
 import DataSorting
 import DataExport
+from UI import UI
 
 if __name__ == '__main__':
+    # UI.callGui()
 
     print("Select the type of data extraction:")
     print("[1] Input the user ID.")
@@ -17,8 +19,10 @@ if __name__ == '__main__':
         connection = Connect.connect()
         user = User.retrieveActor(connection, userID)
 
+        #TODO Check if user already exists in database
         if user is not False:
             print("User found!\n")
+
             temporalTuple = DataSorting.sorting(connection, userID)
 
             DataExport.exportToCsv(temporalTuple, userID)
@@ -35,6 +39,17 @@ if __name__ == '__main__':
 
         if userList is not False:
             print("List of users found!\n")
+
+            # Check if table exists in database to export
+            cursor = connection.cursor()
+            cursor.execute('select exists(select * from information_schema.tables where table_name=%s)',
+                           ('standard',))
+            # Then delete for insert new data
+            if cursor.fetchone()[0] is True:
+                delete = 'DROP TABLE "dv8fromtheworld/jda".standard;'
+                cursor.execute(delete)
+                connection.commit()
+                cursor.close()
 
             for user in userList:
                 temporalTuple = DataSorting.sorting(connection, user[0])
