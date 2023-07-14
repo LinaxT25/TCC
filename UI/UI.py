@@ -78,48 +78,48 @@ import PySimpleGUI as sg
 #
 #     window.close()
 
-# def callGui():
-#     # layout = [[sg.Text("Test")],
-#     #           [sg.Button("Ok")],
-#     #           [sg.Input("Test")],
-#     #           [sg.Checkbox("Test2")]]
-#     # window = sg.Window("Data Extractor", layout, size=(800,600), location=(0,0), element_justification="center")
-#     #
-#     # while True:
-#     #     event, values = window.read()
-#     #     if event == "Ok" or event == sg.WIN_CLOSED:
-#     #         break
-#     #
-#     # window.close()
-#     tab1_layout = [[sg.Text('Select the format to import')],
-#                    [sg.Checkbox("CSV")],
-#                    [sg.Checkbox("Database")]]
-#
-#     tab2_layout = [[sg.Text('Tab 2')]]
-#
-#     # The TabGroup layout - it must contain only Tabs
-#     tab_group_layout = [[sg.Tab('Data Extract', tab1_layout, key='-TAB1-'),
-#                          sg.Tab('Tab 2', tab2_layout, key='-TAB2-')]]
-#
-#     # The window layout - defines the entire window
-#     layout = [[sg.TabGroup(tab_group_layout, enable_events=True, key='-TABGROUP-')], [sg.Button('Extract Data')]               ]
-#
-#     window = sg.Window('My window with tabs', layout,
-#                        size=(400,300), location=(0,0), no_titlebar=False)
-#
-#     tab_keys = ('-TAB1-', '-TAB2-', '-TAB3-', '-TAB4-')  # map from an input value to a key
-#     while True:
-#         event, values = window.read()  # type: str, dict
-#         print(event, values)
-#         if event == sg.WIN_CLOSED:
-#             break
-#         # handle button clicks
-#         if event == 'Invisible':
-#             window[tab_keys[int(values['-IN-']) - 1]].update(visible=False)
-#         if event == 'Visible':
-#             window[tab_keys[int(values['-IN-']) - 1]].update(visible=True)
-#         if event == 'Select':
-#             window[tab_keys[int(values['-IN-']) - 1]].select()
-#         if event == 'Disable':
-#             window[tab_keys[int(values['-IN-']) - 1]].update(disabled=True)
-#     window.close()
+def callGui():
+    # layout = [[sg.Text("Test")],
+    #           [sg.Button("Ok")],
+    #           [sg.Input("Test")],
+    #           [sg.Checkbox("Test2")]]
+    # window = sg.Window("Data Extractor", layout, size=(800,600), location=(0,0), element_justification="center")
+    #
+    # while True:
+    #     event, values = window.read()
+    #     if event == "Ok" or event == sg.WIN_CLOSED:
+    #         break
+    #
+    # window.close()
+    tab1_layout = [[sg.Text('Select the format to import')],
+                   [sg.Checkbox("CSV")],
+                   [sg.Checkbox("Database")]]
+
+    tab2_layout = [[sg.Text('Tab 2')]]
+
+    # The TabGroup layout - it must contain only Tabs
+    tab_group_layout = [[sg.Tab('Data Extract', tab1_layout, key='-TAB1-'),
+                         sg.Tab('Tab 2', tab2_layout, key='-TAB2-')]]
+
+    # The window layout - defines the entire window
+    layout = [[sg.TabGroup(tab_group_layout, enable_events=True, key='-TABGROUP-')], [sg.Button('Extract Data')]               ]
+
+    window = sg.Window('My window with tabs', layout,
+                       size=(400,300), location=(0,0), no_titlebar=False)
+
+    tab_keys = ('-TAB1-', '-TAB2-', '-TAB3-', '-TAB4-')  # map from an input value to a key
+    while True:
+        event, values = window.read()  # type: str, dict
+        print(event, values)
+        if event == sg.WIN_CLOSED:
+            break
+        # handle button clicks
+        if event == 'Invisible':
+            window[tab_keys[int(values['-IN-']) - 1]].update(visible=False)
+        if event == 'Visible':
+            window[tab_keys[int(values['-IN-']) - 1]].update(visible=True)
+        if event == 'Select':
+            window[tab_keys[int(values['-IN-']) - 1]].select()
+        if event == 'Disable':
+            window[tab_keys[int(values['-IN-']) - 1]].update(disabled=True)
+    window.close()

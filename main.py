@@ -1,4 +1,5 @@
 from BD import Close, Connect, User
+from FP_Growth import FPGrowth
 import DataSorting
 import DataExport
 from UI import UI
@@ -60,6 +61,9 @@ if __name__ == '__main__':
             print("User not found!\n")
 
         Close.closeConnection(connection)
+
+    elif option == '3':
+        FPGrowth.dataPattern()
 
     else:
         print("Error in selection!")
