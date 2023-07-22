@@ -1,6 +1,7 @@
 import psycopg2
 
-def retrieveActor(connection, userid):
+
+def retrieve_actor(connection, userid):
     try:
         cursor = connection.cursor()
 
@@ -18,7 +19,7 @@ def retrieveActor(connection, userid):
         print(error)
 
 
-def retrieveActors(connection):
+def retrieve_actors(connection):
     try:
         cursor = connection.cursor()
 

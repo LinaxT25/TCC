@@ -1,29 +1,28 @@
-from datetime import date,datetime
 import csv
 import sys
 import os
-
 import psycopg2
 
 
-def exportToCsv(finaltuple, userid):
+def export_to_csv(final_tuple, userid):
     # Creating a new directory for data to be exported
-    dirPath = os.getcwd()
-    newDir = os.path.join(dirPath, "Data_Output") # Joined paths to be compatible with more OS
+    dir_path = os.getcwd()
+    new_dir = os.path.join(dir_path, "Data_Output")  # Joined paths to be compatible with more OS
 
-    if not os.path.exists(newDir):
-        os.makedirs(newDir)
+    if not os.path.exists(new_dir):
+        os.makedirs(new_dir)
 
     filename = userid + ".csv"
-    with open(os.path.join(newDir,filename), 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True,)
+    with open(os.path.join(new_dir, filename), 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True, )
         try:
-            for i in range(len(finaltuple)):
-                writer.writerow((i + 1, finaltuple[i][0], finaltuple[i][1]))
+            for i in range(len(final_tuple)):
+                writer.writerow((i + 1, final_tuple[i][0], final_tuple[i][1]))
         except csv.Error as e:
             sys.exit(e)
 
-def exportToDB(finaltuple, userid, connect):
+
+def export_to_db(final_tuple, userid, connect):
     try:
         cursor = connect.cursor()
 
@@ -35,12 +34,12 @@ def exportToDB(finaltuple, userid, connect):
             cursor.execute(create)
             connect.commit()
 
-        filteredtuple = list(filter(lambda x: x[1] is not None, finaltuple))
+        filtered_tuple = list(filter(lambda x: x[1] is not None, final_tuple))
 
         # Remove the 6 values boolean with has been appended in the end of tuple
-        for i in range(len(filteredtuple) - 6):
+        for i in range(len(filtered_tuple) - 6):
             insert = 'INSERT INTO "dv8fromtheworld/jda".standard VALUES(%s, %s, %s);'
-            cursor.execute(insert, (userid, filteredtuple[i][0], filteredtuple[i][1]))
+            cursor.execute(insert, (userid, filtered_tuple[i][0], filtered_tuple[i][1]))
 
         connect.commit()
         cursor.close()

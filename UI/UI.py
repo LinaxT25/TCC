@@ -1,4 +1,6 @@
 import PySimpleGUI as sg
+
+
 #
 # """
 #     Demo - The MenubarCustom element
@@ -78,7 +80,7 @@ import PySimpleGUI as sg
 #
 #     window.close()
 
-def callGui():
+def call_gui():
     # layout = [[sg.Text("Test")],
     #           [sg.Button("Ok")],
     #           [sg.Input("Test")],
@@ -102,10 +104,10 @@ def callGui():
                          sg.Tab('Tab 2', tab2_layout, key='-TAB2-')]]
 
     # The window layout - defines the entire window
-    layout = [[sg.TabGroup(tab_group_layout, enable_events=True, key='-TABGROUP-')], [sg.Button('Extract Data')]               ]
+    layout = [[sg.TabGroup(tab_group_layout, enable_events=True, key='-TABGROUP-')], [sg.Button('Extract Data')]]
 
     window = sg.Window('My window with tabs', layout,
-                       size=(400,300), location=(0,0), no_titlebar=False)
+                       size=(400, 300), location=(0, 0), no_titlebar=False)
 
     tab_keys = ('-TAB1-', '-TAB2-', '-TAB3-', '-TAB4-')  # map from an input value to a key
     while True:

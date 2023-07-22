@@ -1,5 +1,7 @@
 import psycopg2
-def closeConnection(connection):
+
+
+def close_connection(connection):
     try:
         print("Trying to close the connection to database...")
         connection.close()

@@ -18,25 +18,25 @@ if __name__ == '__main__':
         userID = input()
 
         connection = Connect.connect()
-        user = User.retrieveActor(connection, userID)
+        user = User.retrieve_actor(connection, userID)
 
-        #TODO Check if user already exists in database
+        # TODO Check if user already exists in database
         if user is not False:
             print("User found!\n")
 
             temporalTuple = DataSorting.sorting(connection, userID)
 
-            DataExport.exportToCsv(temporalTuple, userID)
-            DataExport.exportToDB(temporalTuple, userID, connection)
+            DataExport.export_to_csv(temporalTuple, userID)
+            DataExport.export_to_db(temporalTuple, userID, connection)
         else:
             print("User not found!\n")
 
-        Close.closeConnection(connection)
+        Close.close_connection(connection)
 
     elif option == '2':
 
         connection = Connect.connect()
-        userList = User.retrieveActors(connection)
+        userList = User.retrieve_actors(connection)
 
         if userList is not False:
             print("List of users found!\n")
@@ -55,16 +55,15 @@ if __name__ == '__main__':
             for user in userList:
                 temporalTuple = DataSorting.sorting(connection, user[0])
 
-                DataExport.exportToCsv(temporalTuple, user[0])
-                DataExport.exportToDB(temporalTuple, user[0], connection)
+                DataExport.export_to_csv(temporalTuple, user[0])
+                DataExport.export_to_db(temporalTuple, user[0], connection)
         else:
             print("User not found!\n")
 
-        Close.closeConnection(connection)
+        Close.close_connection(connection)
 
     elif option == '3':
-        FPGrowth.dataPattern()
-
+        FPGrowth.data_pattern()
     else:
         print("Error in selection!")
 
