@@ -95,19 +95,21 @@ def call_gui():
     # window.close()
     tab1_layout = [[sg.Text('Select the format to import')],
                    [sg.Checkbox("CSV")],
-                   [sg.Checkbox("Database")]]
+                   [sg.Checkbox("Database")],
+                   [sg.Sizer(400, 400)]
+                   ]
 
     tab2_layout = [[sg.Text('Tab 2')]]
 
     # The TabGroup layout - it must contain only Tabs
-    tab_group_layout = [[sg.Tab('Data Extract', tab1_layout, key='-TAB1-'),
+
+    tab_group_layout = [[sg.Tab('Data Extract', tab1_layout, element_justification="left", key='-TAB1-'),
                          sg.Tab('Tab 2', tab2_layout, key='-TAB2-')]]
 
     # The window layout - defines the entire window
     layout = [[sg.TabGroup(tab_group_layout, enable_events=True, key='-TABGROUP-')], [sg.Button('Extract Data')]]
-
-    window = sg.Window('My window with tabs', layout,
-                       size=(400, 300), location=(0, 0), no_titlebar=False)
+    window = sg.Window('Data Extractor', layout,
+                       size=(800, 600), location=(0, 0), element_justification="center", no_titlebar=False)
 
     tab_keys = ('-TAB1-', '-TAB2-', '-TAB3-', '-TAB4-')  # map from an input value to a key
     while True:

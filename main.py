@@ -5,11 +5,12 @@ import DataExport
 from UI import UI
 
 if __name__ == '__main__':
-    # UI.callGui()
+    #UI.call_gui()
 
-    print("Select the type of data extraction:")
+    print("Select the option desired:")
     print("[1] Input the user ID.")
     print("[2] Extract for all users.")
+    print("[3] Analyze data patterns from standard table in database.")
 
     option = input()
 
