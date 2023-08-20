@@ -64,7 +64,7 @@ if __name__ == '__main__':
         Close.close_connection(connection)
 
     elif option == '3':
-        FPGrowth.data_pattern()
+        FPGrowth.fp_growth()
     else:
         print("Error in selection!")
 
