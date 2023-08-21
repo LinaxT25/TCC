@@ -1,8 +1,8 @@
 import os
 import pyfpgrowth
 
-
 from FP_Growth import ActivitiesExtract
+from FP_Growth import Graphs
 
 
 def fp_growth():
@@ -10,6 +10,7 @@ def fp_growth():
     # First analysis
     patterns = pyfpgrowth.find_frequent_patterns(activity_list, 1)
     rules = pyfpgrowth.generate_association_rules(patterns, 0.1)
+    Graphs.graphs(patterns, rules)
 
     # Creating a new directory for data to be exported
     dir_path = os.getcwd()
