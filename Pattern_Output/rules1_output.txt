@@ -1,285 +1,400 @@
-(('Merged',), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 0.8))
-(('Releases',), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('EditorPullRequest', 'Merged'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), 0.8))
-(('EditorPullRequest', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('Merged', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'Merged'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 0.8))
-(('AuthorPullRequest', 'Releases'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'Merged'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), 0.8))
-(('EditorIssue', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'Merged'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('Merged', 'Reactions'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), 0.8))
-(('Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('Merged', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 0.8))
-(('Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged'), (('AuthorIssue', 'EditorIssue', 'Reactions', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorPullRequest', 'Releases'), (('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Releases'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('EditorPullRequest', 'Merged', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'), 0.8))
-(('EditorIssue', 'EditorPullRequest', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'Merged', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged'), (('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'Merged', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('EditorPullRequest', 'Merged', 'Reactions'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Starred'), 0.8))
-(('EditorPullRequest', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'), 1.0))
-(('Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('EditorPullRequest', 'Merged', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions'), 0.8))
-(('EditorPullRequest', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions'), 1.0))
-(('Merged', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged'), (('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'Releases'), (('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged'), (('EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Releases'), (('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Reactions'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Starred'), 0.8))
-(('AuthorPullRequest', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 0.8))
-(('AuthorPullRequest', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Releases'), (('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'Merged', 'Reactions'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'), 0.8))
-(('EditorIssue', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('EditorIssue', 'Merged', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 0.8))
-(('EditorIssue', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'Merged', 'Reactions'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'Merged', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), 0.8))
-(('Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged'), (('AuthorIssue', 'Reactions', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Releases'), (('AuthorIssue', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases'), (('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Releases'), (('AuthorIssue', 'EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged'), (('EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Releases'), (('EditorIssue', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases'), (('EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions'), (('AuthorIssue', 'EditorIssue', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorIssue', 'Merged', 'Starred'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Starred'), (('AuthorIssue', 'EditorIssue', 'Reactions'), 0.8))
-(('AuthorPullRequest', 'EditorPullRequest', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged'), (('AuthorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Releases'), (('AuthorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Releases'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), (('AuthorIssue', 'AuthorPullRequest', 'Starred'), 0.8))
-(('EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Starred'), 1.0))
-(('EditorIssue', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions'), 0.8))
-(('EditorIssue', 'EditorPullRequest', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('EditorIssue', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), (('AuthorPullRequest', 'EditorIssue', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'Merged', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'Merged', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue'), 0.8))
-(('EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged'), 1.0))
-(('Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged'), (('EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Releases'), (('EditorPullRequest', 'Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions'), (('AuthorIssue', 'EditorPullRequest', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'), (('AuthorIssue', 'EditorPullRequest', 'Reactions'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'Releases', 'Starred'), (('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions'), (('EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases'), (('EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Starred'), (('EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Releases', 'Starred'), (('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest'), 0.8))
-(('AuthorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions'), (('AuthorPullRequest', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('EditorIssue', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), 0.8))
-(('EditorIssue', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'Merged', 'Reactions', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged'), (('Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Releases'), (('Merged', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases'), (('EditorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Releases'), (('EditorIssue', 'Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases'), (('AuthorPullRequest', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases'), (('AuthorIssue', 'Reactions', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), (('AuthorIssue', 'Starred'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases'), (('AuthorIssue', 'Merged', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'EditorIssue', 'Starred'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'AuthorPullRequest', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), (('AuthorIssue', 'Reactions'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Releases', 'Starred'), (('AuthorIssue', 'Merged', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'Reactions'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions'), (('EditorIssue', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Releases'), (('EditorIssue', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions', 'Releases'), (('EditorIssue', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorIssue', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Starred'), (('EditorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Releases', 'Starred'), (('EditorIssue', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Starred'), (('EditorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'EditorIssue'), 0.8))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'Merged'), 1.0))
-(('AuthorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue', 'EditorPullRequest'), 1.0))
-(('EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorIssue'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), (('AuthorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases'), (('AuthorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions', 'Releases'), (('AuthorPullRequest', 'EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), (('AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Releases', 'Starred'), (('AuthorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'AuthorPullRequest'), 0.8))
-(('EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'Merged'), 1.0))
-(('EditorIssue', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorPullRequest', 'EditorIssue'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'Merged'), 1.0))
-(('AuthorIssue', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions'), (('EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Releases'), (('EditorPullRequest', 'Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'), (('EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Releases', 'Starred'), (('EditorPullRequest', 'Merged', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue', 'EditorPullRequest'), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions', 'Starred'), (('EditorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Starred'), (('EditorIssue', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions'), (('Starred',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases'), (('Reactions', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases'), (('Merged', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Releases'), (('EditorPullRequest', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('EditorIssue', 'Starred'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorPullRequest', 'Starred'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('AuthorIssue', 'Starred'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Starred'), (('Reactions',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Releases', 'Starred'), (('Merged', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Starred'), (('EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('EditorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('AuthorIssue', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorIssue',), 0.8))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'Merged'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'EditorIssue'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue', 'AuthorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('EditorIssue',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('EditorIssue', 'Merged'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('EditorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorIssue'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Starred'), (('EditorPullRequest',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Releases', 'Starred'), (('EditorPullRequest', 'Merged'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases'), (('Starred',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Starred'), (('Releases',), 0.75))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Releases', 'Starred'), (('Reactions',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Releases', 'Starred'), (('Merged',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Reactions', 'Releases', 'Starred'), (('EditorPullRequest',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('EditorIssue',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Merged', 'Reactions', 'Releases', 'Starred'), (('AuthorIssue',), 1.0))
-(('EditorIssue', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('Reactions', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'Taggers'), (('AuthorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'Reactions', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('EditorIssue', 'Reactions', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Taggers'), (('AuthorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'Reactions', 'Taggers'), (('AuthorIssue', 'EditorPullRequest'), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Taggers'), (('EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Taggers'), (('AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Taggers'), (('AuthorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Taggers'), (('EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Taggers'), (('EditorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Reactions', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Taggers'), (('AuthorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Taggers'), (('AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorPullRequest',), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest'), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Taggers'), (('AuthorIssue', 'Reactions'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorIssue',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Taggers'), (('Reactions',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Taggers'), (('Reactions',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Taggers'), (('EditorPullRequest',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Taggers'), (('Starred',), 0.75))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorPullRequest',), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Taggers'), (('AuthorIssue',), 1.0))
-(('Starred', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'Starred', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), 1.0))
-(('Reactions', 'Starred', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorPullRequest', 'Starred', 'Taggers'), (('AuthorIssue', 'EditorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Starred', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Starred', 'Taggers'), (('EditorPullRequest', 'Reactions'), 1.0))
-(('AuthorIssue', 'Reactions', 'Starred', 'Taggers'), (('AuthorPullRequest', 'EditorPullRequest'), 1.0))
-(('AuthorPullRequest', 'Reactions', 'Starred', 'Taggers'), (('AuthorIssue', 'EditorPullRequest'), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Starred', 'Taggers'), (('AuthorPullRequest', 'Reactions'), 1.0))
-(('EditorPullRequest', 'Reactions', 'Starred', 'Taggers'), (('AuthorIssue', 'AuthorPullRequest'), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Starred', 'Taggers'), (('AuthorIssue', 'Reactions'), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Starred', 'Taggers'), (('Reactions',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred', 'Taggers'), (('EditorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Starred', 'Taggers'), (('AuthorPullRequest',), 1.0))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred', 'Taggers'), (('AuthorIssue',), 1.0))
-(('EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), (('AuthorIssue', 'AuthorPullRequest'), 0.9333333333333333))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), (('AuthorIssue',), 0.9333333333333333))
-(('EditorIssue', 'EditorPullRequest', 'Reactions'), (('AuthorIssue', 'AuthorPullRequest'), 0.9565217391304348))
-(('EditorIssue', 'Reactions', 'Starred'), (('AuthorIssue',), 0.9696969696969697))
-(('EditorPullRequest', 'Reactions', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorPullRequest', 'Starred'), (('AuthorPullRequest', 'Reactions'), 0.8333333333333334))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Reactions', 'Starred'), (('AuthorPullRequest',), 0.625))
-(('AuthorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), (('AuthorIssue',), 0.9615384615384616))
-(('AuthorPullRequest', 'EditorIssue', 'Reactions'), (('AuthorIssue',), 0.967741935483871))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), (('AuthorIssue',), 0.9565217391304348))
-(('AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), (('AuthorIssue',), 0.9411764705882353))
-(('AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), (('AuthorIssue',), 0.9523809523809523))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), (('AuthorIssue',), 0.6410256410256411))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue'), (('Reactions',), 0.7692307692307693))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest'), (('Reactions',), 0.8))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest'), (('Reactions',), 0.88))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions'), (('Starred',), 0.6666666666666666))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Starred'), (('Reactions',), 0.8))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions'), (('Starred',), 0.6944444444444444))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'), (('Reactions',), 0.8333333333333334))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'), (('EditorIssue',), 0.5555555555555556))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Reactions'), (('Starred',), 0.6363636363636364))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'EditorPullRequest', 'Starred'), (('Reactions',), 0.875))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'), (('EditorPullRequest',), 0.7))
-(('AuthorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Reactions', 'Starred'), (('EditorIssue',), 0.56))
-(('AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'Reactions', 'Starred'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'AuthorPullRequest', 'Starred'), (('Reactions',), 0.7346938775510204))
-(('EditorPullRequest', 'Starred'), (('AuthorPullRequest', 'Reactions'), 0.7222222222222222))
-(('AuthorPullRequest', 'EditorPullRequest', 'Starred'), (('Reactions',), 0.7222222222222222))
-(('EditorIssue', 'Reactions'), (('AuthorIssue',), 0.9864864864864865))
-(('EditorPullRequest', 'Reactions'), (('AuthorPullRequest',), 1.0))
-(('AuthorIssue', 'EditorIssue', 'Reactions'), (('Starred',), 0.4383561643835616))
-(('AuthorPullRequest', 'EditorPullRequest', 'Reactions'), (('Starred',), 0.6724137931034483))
-(('AuthorIssue', 'AuthorPullRequest', 'Reactions'), (('Starred',), 0.6923076923076923))
-(('AuthorIssue', 'Reactions', 'Starred'), (('EditorIssue',), 0.4507042253521127))
-(('AuthorPullRequest', 'EditorPullRequest'), (('Reactions',), 0.5918367346938775))
-(('AuthorPullRequest', 'Starred'), (('Reactions',), 0.64))
-(('AuthorPullRequest', 'Reactions', 'Starred'), (('AuthorIssue',), 0.5625))
-(('AuthorPullRequest', 'Reactions'), (('Starred',), 0.6336633663366337))
-(('AuthorIssue', 'EditorIssue', 'Starred'), (('Reactions',), 0.5161290322580645))
-(('AuthorIssue', 'Starred'), (('Reactions',), 0.4863013698630137))
-(('AuthorIssue', 'Reactions'), (('Starred',), 0.5))
-(('AuthorIssue', 'EditorIssue'), (('Reactions',), 0.3348623853211009))
-(('Reactions',), (('Starred',), 0.4226086956521739))
+[{'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorIssue'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'EditorIssue'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'Merged', 'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'Reactions'}, 1.0]
+[{'Merged'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'EditorIssue', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged'}, {'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions', 'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Merged'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'Starred'}, 1.0]
+[{'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'Merged'}, {'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'EditorIssue', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged'}, {'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorIssue', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorIssue', 'Reactions', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Merged'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Starred'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'Merged'}, {'EditorIssue', 'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'Merged', 'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest', 'Reactions', 'Starred'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged'}, {'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorIssue', 'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}, {'EditorIssue', 'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue', 'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'Starred'}, {'EditorIssue', 'Reactions', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorPullRequest', 'EditorIssue', 'Starred'}, 1.0]
+[{'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue', 'Reactions'}, 1.0]
+[{'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged', 'AuthorPullRequest'}, {'Reactions', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}, {'AuthorPullRequest', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Merged', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 1.0]
+[{'Merged', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'EditorPullRequest', 'Starred'}, 1.0]
+[{'Merged', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 1.0]
+[{'EditorIssue', 'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest', 'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Merged'}, {'EditorIssue', 'Starred'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Starred'}, {'EditorIssue', 'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}, {'EditorPullRequest', 'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'EditorIssue', 'AuthorPullRequest', 'Reactions'}, {'Starred'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'Reactions'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'EditorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'Merged', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'EditorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'Merged', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'EditorIssue'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue'}, {'Starred'}, 0.6538461538461539]
+[{'EditorPullRequest', 'EditorIssue'}, {'Reactions', 'Starred'}, 0.5769230769230769]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'Starred'}, 0.6521739130434783]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'Reactions'}, 0.8823529411764706]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorIssue', 'Reactions', 'Starred'}, 0.5384615384615384]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'Reactions', 'Starred'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorIssue', 'Starred'}, 0.6086956521739131]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorIssue', 'Reactions'}, 0.8235294117647058]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions'}, {'Starred'}, 0.6363636363636364]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Starred'}, {'Reactions'}, 0.875]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.9333333333333333]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, {'EditorIssue'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, 0.5384615384615384]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'AuthorIssue', 'Reactions', 'Starred'}, 0.5384615384615384]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorPullRequest', 'AuthorIssue', 'Starred'}, 0.6086956521739131]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, 0.8235294117647058]
+[{'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'AuthorIssue', 'Reactions'}, 0.5384615384615384]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'Reactions', 'Starred'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions'}, {'AuthorPullRequest', 'Starred'}, 0.6363636363636364]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 0.875]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'AuthorIssue', 'Starred'}, 0.6086956521739131]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'AuthorIssue', 'Reactions'}, 0.8235294117647058]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.9333333333333333]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'AuthorIssue'}, 0.6666666666666666]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions'}, {'Starred'}, 0.6363636363636364]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Starred'}, {'Reactions'}, 0.875]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'EditorPullRequest'}, 0.7]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.9333333333333333]
+[{'EditorPullRequest', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'EditorIssue'}, 0.56]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 0.5769230769230769]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'Reactions', 'Starred'}, 0.5769230769230769]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorPullRequest', 'Starred'}, 0.6521739130434783]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 0.8823529411764706]
+[{'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 0.5769230769230769]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'Starred'}, 0.6521739130434783]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'Reactions'}, 0.8823529411764706]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest'}, 0.7142857142857143]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorIssue', 'Starred'}, 0.6153846153846154]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'Starred'}, 0.64]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorIssue'}, 0.9411764705882353]
+[{'EditorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorIssue'}, 0.5333333333333333]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'AuthorIssue', 'Starred'}, 0.6153846153846154]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'AuthorPullRequest', 'Starred'}, 0.64]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'AuthorIssue', 'Starred'}, 0.6153846153846154]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.9411764705882353]
+[{'EditorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorIssue', 'AuthorPullRequest'}, 0.5333333333333333]
+[{'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest', 'AuthorIssue'}, 0.6153846153846154]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'Starred'}, 0.64]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'AuthorIssue'}, 0.9411764705882353]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorIssue'}, 0.5333333333333333]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest'}, 0.64]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'Starred'}, 0.6538461538461539]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'Starred'}, 0.6538461538461539]
+[{'EditorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'EditorPullRequest'}, 0.6538461538461539]
+[{'EditorPullRequest', 'EditorIssue'}, {'Reactions'}, 0.8846153846153846]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorIssue', 'Reactions'}, 0.8461538461538461]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'Reactions'}, 0.88]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorIssue'}, 0.9565217391304348]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions'}, {'EditorIssue'}, 0.6111111111111112]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, 0.8461538461538461]
+[{'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest', 'AuthorIssue', 'Reactions'}, 0.55]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'AuthorPullRequest', 'Reactions'}, 0.88]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'AuthorIssue', 'Reactions'}, 0.8461538461538461]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.9565217391304348]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions'}, {'EditorIssue', 'AuthorPullRequest'}, 0.6111111111111112]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'EditorPullRequest', 'Reactions'}, 0.5641025641025641]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'EditorPullRequest', 'AuthorIssue'}, 0.7096774193548387]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'Reactions'}, 0.88]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'AuthorIssue'}, 0.9565217391304348]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, {'EditorIssue'}, 0.6111111111111112]
+[{'EditorIssue', 'AuthorIssue', 'Reactions', 'AuthorPullRequest'}, {'EditorPullRequest'}, 0.7333333333333333]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'Reactions'}, 0.8846153846153846]
+[{'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest', 'Reactions'}, 0.575]
+[{'EditorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'Reactions'}, 0.8846153846153846]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'EditorPullRequest'}, 0.7419354838709677]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorIssue'}, 0.9615384615384616]
+[{'EditorPullRequest', 'AuthorIssue'}, {'EditorIssue'}, 0.5555555555555556]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.9615384615384616]
+[{'EditorPullRequest', 'AuthorIssue'}, {'EditorIssue', 'AuthorPullRequest'}, 0.5555555555555556]
+[{'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest', 'AuthorIssue'}, 0.625]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}, {'AuthorIssue'}, 0.9615384615384616]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue'}, {'EditorIssue'}, 0.5555555555555556]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'EditorPullRequest'}, 0.6410256410256411]
+[{'EditorPullRequest', 'EditorIssue'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorIssue', 'AuthorPullRequest'}, {'EditorPullRequest'}, 0.65]
+[{'EditorPullRequest', 'AuthorIssue'}, {'Starred'}, 0.6666666666666666]
+[{'EditorPullRequest', 'Starred'}, {'AuthorIssue'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorIssue'}, {'Reactions', 'Starred'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions'}, {'Starred'}, 0.6944444444444444]
+[{'EditorPullRequest', 'AuthorIssue', 'Starred'}, {'Reactions'}, 0.8333333333333334]
+[{'EditorPullRequest', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.6410256410256411]
+[{'EditorPullRequest', 'AuthorIssue'}, {'AuthorPullRequest', 'Reactions', 'Starred'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue'}, {'Reactions', 'Starred'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions'}, {'AuthorPullRequest', 'Starred'}, 0.6944444444444444]
+[{'EditorPullRequest', 'AuthorIssue', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 0.8333333333333334]
+[{'EditorPullRequest', 'Reactions', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.6410256410256411]
+[{'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorPullRequest', 'Reactions'}, 0.5102040816326531]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, {'Starred'}, 0.6944444444444444]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'Reactions'}, 0.8333333333333334]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.6410256410256411]
+[{'AuthorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, {'EditorPullRequest'}, 0.6944444444444444]
+[{'EditorPullRequest', 'AuthorIssue'}, {'AuthorPullRequest', 'Starred'}, 0.6666666666666666]
+[{'EditorPullRequest', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue'}, {'Starred'}, 0.6666666666666666]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, {'AuthorIssue'}, 0.5555555555555556]
+[{'EditorPullRequest', 'AuthorIssue', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorPullRequest'}, 0.6122448979591837]
+[{'EditorPullRequest', 'AuthorIssue'}, {'Reactions'}, 0.8]
+[{'EditorPullRequest', 'Reactions'}, {'AuthorIssue'}, 0.6206896551724138]
+[{'EditorPullRequest', 'AuthorIssue'}, {'AuthorPullRequest', 'Reactions'}, 0.8]
+[{'EditorPullRequest', 'Reactions'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.6206896551724138]
+[{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue'}, {'Reactions'}, 0.8]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, {'AuthorIssue'}, 0.6206896551724138]
+[{'EditorPullRequest', 'AuthorIssue', 'Reactions'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, {'EditorPullRequest'}, 0.6923076923076923]
+[{'EditorPullRequest', 'AuthorIssue'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'AuthorIssue'}, {'EditorPullRequest'}, 0.5921052631578947]
+[{'EditorPullRequest'}, {'Starred'}, 0.5510204081632653]
+[{'EditorPullRequest', 'Reactions'}, {'Starred'}, 0.6724137931034483]
+[{'EditorPullRequest', 'Starred'}, {'Reactions'}, 0.7222222222222222]
+[{'EditorPullRequest', 'Reactions'}, {'AuthorPullRequest', 'Starred'}, 0.6724137931034483]
+[{'EditorPullRequest', 'Starred'}, {'AuthorPullRequest', 'Reactions'}, 0.7222222222222222]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}, {'Starred'}, 0.6724137931034483]
+[{'EditorPullRequest', 'AuthorPullRequest', 'Starred'}, {'Reactions'}, 0.7222222222222222]
+[{'EditorPullRequest', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions', 'Starred'}, {'EditorPullRequest'}, 0.609375]
+[{'EditorPullRequest'}, {'AuthorPullRequest', 'Starred'}, 0.5510204081632653]
+[{'EditorPullRequest', 'AuthorPullRequest'}, {'Starred'}, 0.5510204081632653]
+[{'EditorPullRequest', 'Starred'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Starred'}, {'EditorPullRequest'}, 0.54]
+[{'EditorPullRequest'}, {'Reactions'}, 0.5918367346938775]
+[{'EditorPullRequest'}, {'AuthorPullRequest', 'Reactions'}, 0.5918367346938775]
+[{'EditorPullRequest', 'AuthorPullRequest'}, {'Reactions'}, 0.5918367346938775]
+[{'EditorPullRequest', 'Reactions'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'Reactions'}, {'EditorPullRequest'}, 0.5742574257425742]
+[{'EditorPullRequest'}, {'AuthorPullRequest'}, 1.0]
+[{'AuthorPullRequest', 'EditorIssue'}, {'Starred'}, 0.65]
+[{'AuthorPullRequest', 'EditorIssue'}, {'Reactions', 'Starred'}, 0.525]
+[{'AuthorPullRequest', 'EditorIssue', 'Reactions'}, {'Starred'}, 0.6774193548387096]
+[{'AuthorPullRequest', 'EditorIssue', 'Starred'}, {'Reactions'}, 0.8076923076923077]
+[{'EditorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 0.6363636363636364]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}, {'Reactions', 'Starred'}, 0.5128205128205128]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest'}, {'AuthorIssue', 'Starred'}, 0.6451612903225806]
+[{'EditorIssue', 'AuthorPullRequest', 'Starred'}, {'AuthorIssue', 'Reactions'}, 0.7692307692307693]
+[{'EditorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest', 'AuthorIssue'}, 0.6060606060606061]
+[{'EditorIssue', 'AuthorIssue', 'Reactions', 'AuthorPullRequest'}, {'Starred'}, 0.6666666666666666]
+[{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Starred'}, {'Reactions'}, 0.8]
+[{'EditorIssue', 'AuthorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 0.625]
+[{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Starred'}, {'AuthorIssue'}, 0.9523809523809523]
+[{'AuthorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}, {'EditorIssue'}, 0.5555555555555556]
+[{'AuthorPullRequest', 'EditorIssue'}, {'AuthorIssue', 'Starred'}, 0.625]
+[{'AuthorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'Starred'}, 0.6410256410256411]
+[{'AuthorPullRequest', 'EditorIssue', 'Starred'}, {'AuthorIssue'}, 0.9615384615384616]
+[{'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'EditorIssue'}, 0.5102040816326531]
+[{'AuthorPullRequest', 'EditorIssue'}, {'Reactions'}, 0.775]
+[{'AuthorPullRequest', 'EditorIssue'}, {'AuthorIssue', 'Reactions'}, 0.75]
+[{'AuthorPullRequest', 'EditorIssue', 'Reactions'}, {'AuthorIssue'}, 0.967741935483871]
+[{'AuthorPullRequest', 'EditorIssue', 'AuthorIssue'}, {'Reactions'}, 0.7692307692307693]
+[{'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, {'EditorIssue'}, 0.5769230769230769]
+[{'AuthorPullRequest', 'EditorIssue'}, {'AuthorIssue'}, 0.975]
+[{'AuthorPullRequest', 'AuthorIssue'}, {'EditorIssue'}, 0.5131578947368421]
+[{'AuthorPullRequest', 'AuthorIssue'}, {'Starred'}, 0.6447368421052632]
+[{'AuthorPullRequest', 'AuthorIssue', 'Reactions'}, {'Starred'}, 0.6923076923076923]
+[{'AuthorPullRequest', 'AuthorIssue', 'Starred'}, {'Reactions'}, 0.7346938775510204]
+[{'AuthorPullRequest', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.5625]
+[{'AuthorIssue', 'Reactions', 'Starred'}, {'AuthorPullRequest'}, 0.5070422535211268]
+[{'AuthorPullRequest', 'AuthorIssue'}, {'Reactions'}, 0.6842105263157895]
+[{'AuthorPullRequest', 'Reactions'}, {'AuthorIssue'}, 0.5148514851485149]
+[{'AuthorPullRequest', 'Reactions'}, {'Starred'}, 0.6336633663366337]
+[{'AuthorPullRequest', 'Starred'}, {'Reactions'}, 0.64]
+[{'EditorIssue', 'Starred'}, {'Reactions'}, 0.5238095238095238]
+[{'EditorIssue', 'Starred'}, {'AuthorIssue', 'Reactions'}, 0.5079365079365079]
+[{'EditorIssue', 'AuthorIssue', 'Starred'}, {'Reactions'}, 0.5161290322580645]
+[{'EditorIssue', 'Reactions', 'Starred'}, {'AuthorIssue'}, 0.9696969696969697]
+[{'EditorIssue', 'Starred'}, {'AuthorIssue'}, 0.9841269841269841]
+[{'EditorIssue', 'Reactions'}, {'AuthorIssue'}, 0.9864864864864865]
+[{'AuthorIssue', 'Reactions'}, {'EditorIssue'}, 0.5140845070422535]
+[{'EditorIssue'}, {'AuthorIssue'}, 0.9954337899543378]

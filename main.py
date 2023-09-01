@@ -2,10 +2,8 @@ from BD import Close, Connect, User
 from FP_Growth import FPGrowth
 import DataSorting
 import DataExport
-from UI import UI
 
 if __name__ == '__main__':
-    #UI.call_gui()
 
     print("Select the option desired:")
     print("[1] Input the user ID.")

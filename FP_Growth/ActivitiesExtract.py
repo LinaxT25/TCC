@@ -22,10 +22,10 @@ def data_pattern():
 
             user_activity = []  # Local list to store only one user activities
             for i in range(len(activity)):
+                # user_activity.append(activity[i][0])
                 # Check for duplicates to not overflow the algorithm
                 if not user_activity.__contains__(activity[i][0]):
                     user_activity.append(activity[i][0])
-
             activity_list.append(user_activity)  # Append to global list
 
         return activity_list
