@@ -1,10 +1,4 @@
-import Reactions
-import Stargazers
-import Watchers
-import Releases
-import Taggers
-import Issues
-import PullRequests
+from DB import Issues, PullRequests, Reactions, Releases, Stargazers, Taggers, Watchers
 
 
 def sorting(connection, userid):

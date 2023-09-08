@@ -1,95 +1,511 @@
+{'Releases'}
+{'Releases', 'Taggers'}
+{'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'Releases', 'Taggers'}
+{'Reactions', 'Releases', 'Taggers', 'Starred'}
+{'Releases', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Releases', 'Taggers', 'AuthorIssue'}
+{'Starred', 'Releases', 'Taggers', 'AuthorIssue'}
+{'AuthorIssue', 'Reactions', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Releases', 'Taggers'}
+{'EditorIssue', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases', 'Taggers'}
+{'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Releases', 'Taggers', 'Starred', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'Starred'}
+{'AuthorPullRequest', 'Releases', 'Taggers'}
+{'AuthorPullRequest', 'EditorIssue', 'Releases', 'Taggers'}
+{'AuthorPullRequest', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Releases', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers'}
+{'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'AuthorPullRequest', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'Releases', 'Taggers', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Releases', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'Starred', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'Releases', 'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Releases', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'AuthorIssue', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Releases', 'Taggers', 'EditorPullRequest', 'AuthorIssue'}
+{'Releases', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Releases', 'Taggers', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Releases', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Releases', 'Taggers', 'EditorPullRequest', 'Starred'}
+{'Releases', 'Taggers', 'Starred', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'AuthorIssue', 'EditorPullRequest', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Releases', 'Taggers', 'EditorPullRequest', 'Starred'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'}
+{'EditorIssue', 'Starred', 'AuthorPullRequest', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Merged', 'Releases', 'Taggers'}
+{'Merged', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Merged', 'Releases', 'Taggers'}
+{'Merged', 'Releases', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'Taggers'}
+{'EditorIssue', 'Merged', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'Merged', 'Releases', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'AuthorIssue', 'Merged', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Releases', 'Taggers'}
+{'Reactions', 'Merged', 'Releases', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Merged', 'Releases', 'Taggers'}
+{'Releases', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Releases', 'Taggers', 'AuthorPullRequest'}
+{'Releases', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers'}
+{'Releases', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'Releases', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Releases', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'AuthorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Releases', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Merged', 'Releases', 'Taggers', 'Starred', 'AuthorIssue'}
+{'Reactions', 'AuthorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Merged', 'Releases', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'EditorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'EditorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Reactions', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'Merged', 'Releases', 'Taggers', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'EditorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Taggers', 'Starred'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'Releases', 'Taggers', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'Merged', 'Releases'}
+{'Releases', 'EditorPullRequest'}
+{'Merged', 'Releases', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Releases'}
+{'AuthorPullRequest', 'Releases', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Merged', 'Releases'}
+{'AuthorPullRequest', 'Merged', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'Releases'}
+{'EditorIssue', 'Releases', 'AuthorPullRequest'}
+{'EditorIssue', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorPullRequest', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases'}
+{'EditorIssue', 'Merged', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'AuthorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'AuthorPullRequest', 'EditorPullRequest'}
+{'Releases', 'AuthorIssue'}
+{'EditorIssue', 'Releases', 'AuthorIssue'}
+{'AuthorPullRequest', 'Releases', 'AuthorIssue'}
+{'AuthorPullRequest', 'EditorIssue', 'Releases', 'AuthorIssue'}
+{'EditorPullRequest', 'Releases', 'AuthorIssue'}
+{'AuthorPullRequest', 'EditorPullRequest', 'Releases', 'AuthorIssue'}
+{'EditorIssue', 'EditorPullRequest', 'Releases', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Releases', 'AuthorPullRequest', 'EditorPullRequest'}
+{'Merged', 'Releases', 'AuthorIssue'}
+{'EditorPullRequest', 'Merged', 'Releases', 'AuthorIssue'}
+{'AuthorPullRequest', 'Merged', 'Releases', 'AuthorIssue'}
+{'AuthorIssue', 'Merged', 'Releases', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'Releases', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'Releases', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'Reactions', 'Releases'}
+{'Reactions', 'Releases', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases'}
+{'EditorIssue', 'Reactions', 'Releases', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'Releases'}
+{'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Releases'}
+{'AuthorPullRequest', 'Reactions', 'Releases', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases', 'AuthorPullRequest', 'AuthorIssue'}
+{'Reactions', 'Releases', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Releases', 'AuthorPullRequest', 'EditorPullRequest'}
+{'Reactions', 'Releases', 'AuthorIssue', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Releases', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'Releases', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'Merged', 'Reactions', 'Releases'}
+{'Merged', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'Merged', 'Reactions', 'Releases', 'AuthorPullRequest'}
+{'Merged', 'Reactions', 'Releases', 'AuthorPullRequest', 'EditorPullRequest'}
+{'Merged', 'EditorIssue', 'Reactions', 'Releases'}
+{'EditorIssue', 'Merged', 'Reactions', 'Releases', 'AuthorPullRequest'}
+{'EditorIssue', 'Merged', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'Reactions', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'EditorPullRequest'}
+{'Merged', 'Reactions', 'Releases', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'Reactions', 'Releases', 'AuthorIssue'}
+{'Merged', 'Reactions', 'Releases', 'AuthorPullRequest', 'AuthorIssue'}
+{'Reactions', 'EditorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'AuthorIssue'}
+{'AuthorIssue', 'Merged', 'Reactions', 'Releases', 'EditorPullRequest'}
+{'Reactions', 'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Releases', 'AuthorIssue'}
+{'Reactions', 'EditorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'Reactions', 'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'Releases', 'Starred'}
+{'Reactions', 'Releases', 'Starred'}
+{'Releases', 'AuthorIssue', 'Starred'}
+{'Reactions', 'Releases', 'AuthorIssue', 'Starred'}
+{'EditorIssue', 'Releases', 'Starred'}
+{'EditorIssue', 'Releases', 'AuthorIssue', 'Starred'}
+{'EditorIssue', 'Reactions', 'Releases', 'Starred'}
+{'EditorIssue', 'Reactions', 'Releases', 'Starred', 'AuthorIssue'}
+{'AuthorPullRequest', 'Releases', 'Starred'}
+{'AuthorPullRequest', 'EditorIssue', 'Releases', 'Starred'}
+{'AuthorPullRequest', 'Releases', 'AuthorIssue', 'Starred'}
+{'EditorIssue', 'Releases', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'Releases', 'Starred'}
+{'Reactions', 'Releases', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Releases', 'AuthorPullRequest', 'Starred'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'AuthorPullRequest'}
+{'EditorPullRequest', 'Releases', 'Starred'}
+{'AuthorPullRequest', 'EditorPullRequest', 'Releases', 'Starred'}
+{'EditorIssue', 'EditorPullRequest', 'Releases', 'Starred'}
+{'EditorIssue', 'Releases', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'Releases', 'AuthorIssue', 'Starred'}
+{'AuthorIssue', 'EditorIssue', 'Releases', 'Starred', 'EditorPullRequest'}
+{'AuthorIssue', 'Releases', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorPullRequest', 'EditorPullRequest', 'Releases', 'AuthorIssue'}
+{'Reactions', 'EditorPullRequest', 'Releases', 'Starred'}
+{'AuthorIssue', 'Reactions', 'Releases', 'Starred', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Releases', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Releases', 'Starred'}
+{'Reactions', 'Releases', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Starred'}
+{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Releases', 'Starred'}
+{'Merged', 'Releases', 'Starred'}
+{'EditorPullRequest', 'Merged', 'Releases', 'Starred'}
+{'AuthorPullRequest', 'Merged', 'Releases', 'Starred'}
+{'Merged', 'Releases', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Releases', 'Starred'}
+{'EditorIssue', 'Merged', 'Releases', 'AuthorPullRequest', 'Starred'}
+{'EditorIssue', 'Merged', 'Releases', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'Starred'}
+{'Merged', 'Releases', 'AuthorIssue', 'Starred'}
+{'EditorIssue', 'Merged', 'Releases', 'Starred', 'AuthorIssue'}
+{'Merged', 'Releases', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Releases', 'Starred'}
+{'AuthorIssue', 'Merged', 'Releases', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'Starred', 'AuthorPullRequest', 'Merged', 'Releases', 'AuthorIssue'}
+{'EditorPullRequest', 'Starred', 'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'EditorPullRequest', 'Starred', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'Releases', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Releases', 'Starred'}
+{'Reactions', 'Merged', 'Releases', 'Starred', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Merged', 'Releases', 'Starred'}
+{'Releases', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'Reactions', 'Merged', 'Releases', 'AuthorPullRequest', 'Starred'}
+{'Releases', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'Releases', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'Releases', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'Reactions', 'Merged', 'Releases', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'Releases', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'AuthorIssue', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'EditorPullRequest', 'Releases', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'Taggers'}
+{'Merged', 'Taggers'}
+{'Merged', 'Taggers', 'Starred'}
+{'EditorIssue', 'Merged', 'Taggers'}
+{'EditorIssue', 'Merged', 'Taggers', 'Starred'}
+{'Reactions', 'Merged', 'Taggers'}
+{'Reactions', 'EditorIssue', 'Merged', 'Taggers'}
+{'Reactions', 'Merged', 'Taggers', 'Starred'}
+{'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'Starred'}
+{'Merged', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'Merged', 'Starred', 'Taggers', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'Starred'}
+{'AuthorIssue', 'Reactions', 'Merged', 'Taggers', 'Starred'}
+{'Starred', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'AuthorIssue'}
+{'AuthorPullRequest', 'Merged', 'Taggers'}
+{'AuthorPullRequest', 'Merged', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'AuthorPullRequest', 'Merged', 'Taggers'}
+{'Reactions', 'Merged', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorPullRequest', 'EditorIssue', 'Merged', 'Taggers'}
+{'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'AuthorPullRequest'}
+{'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest'}
+{'AuthorPullRequest', 'Merged', 'Taggers', 'Starred'}
+{'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'Reactions', 'Merged', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'Starred'}
+{'Merged', 'Taggers', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'Reactions', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'Starred'}
+{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'Starred'}
+{'Reactions', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'Starred'}
+{'Merged', 'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'AuthorIssue', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Merged', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Merged', 'Taggers', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Taggers', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest'}
+{'EditorPullRequest', 'Reactions', 'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'AuthorPullRequest'}
+{'Merged', 'Starred', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'Taggers', 'EditorPullRequest', 'Starred'}
+{'Reactions', 'Merged', 'Taggers', 'EditorPullRequest', 'Starred'}
+{'Starred', 'EditorIssue', 'Reactions', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Merged', 'Taggers', 'Starred', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'Merged', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'Reactions', 'AuthorIssue', 'EditorIssue', 'Merged', 'Taggers', 'Starred'}
+{'Merged', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'}
+{'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Starred', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'EditorIssue', 'Starred', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'EditorIssue', 'Starred', 'AuthorIssue', 'AuthorPullRequest', 'Merged', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Taggers'}
+{'EditorIssue', 'Reactions', 'Taggers'}
+{'EditorIssue', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Taggers', 'AuthorIssue'}
+{'EditorIssue', 'Taggers', 'AuthorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Taggers', 'AuthorPullRequest'}
+{'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest'}
+{'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorPullRequest', 'Taggers', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Taggers', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Taggers', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest'}
+{'Taggers', 'Starred'}
+{'EditorIssue', 'Taggers', 'Starred'}
+{'EditorIssue', 'EditorPullRequest', 'Taggers', 'Starred'}
+{'EditorIssue', 'AuthorPullRequest', 'Taggers', 'Starred'}
+{'EditorIssue', 'Taggers', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Taggers', 'Starred'}
+{'EditorIssue', 'Taggers', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Taggers', 'Starred', 'EditorPullRequest', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'EditorPullRequest', 'AuthorPullRequest', 'Taggers', 'Starred'}
+{'EditorIssue', 'Reactions', 'Taggers', 'Starred'}
+{'EditorIssue', 'Reactions', 'Taggers', 'Starred', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest', 'Starred'}
+{'Starred', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Taggers', 'AuthorPullRequest'}
+{'EditorIssue', 'Reactions', 'Taggers', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Reactions', 'Taggers', 'Starred'}
+{'EditorPullRequest', 'AuthorIssue', 'EditorIssue', 'Reactions', 'AuthorPullRequest', 'Taggers', 'Starred'}
+{'Reactions', 'Taggers', 'Starred'}
+{'AuthorIssue', 'Taggers', 'Starred'}
+{'AuthorIssue', 'Reactions', 'Taggers', 'Starred'}
+{'AuthorPullRequest', 'Taggers', 'Starred'}
+{'AuthorIssue', 'AuthorPullRequest', 'Taggers', 'Starred'}
+{'AuthorPullRequest', 'Reactions', 'Taggers', 'Starred'}
+{'Reactions', 'Taggers', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
+{'EditorPullRequest', 'Taggers', 'Starred'}
+{'AuthorPullRequest', 'EditorPullRequest', 'Taggers', 'Starred'}
+{'AuthorIssue', 'EditorPullRequest', 'Taggers', 'Starred'}
+{'Taggers', 'Starred', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'EditorPullRequest', 'Taggers', 'Starred'}
+{'Reactions', 'Taggers', 'Starred', 'EditorPullRequest', 'AuthorIssue'}
+{'Reactions', 'Taggers', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Taggers', 'Starred'}
+{'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Taggers'}
+{'AuthorPullRequest', 'Taggers', 'EditorPullRequest'}
+{'Taggers', 'AuthorIssue'}
+{'AuthorPullRequest', 'Taggers', 'AuthorIssue'}
+{'EditorPullRequest', 'Taggers', 'AuthorIssue'}
+{'AuthorPullRequest', 'EditorPullRequest', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Taggers'}
+{'Reactions', 'Taggers', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'Taggers'}
+{'AuthorPullRequest', 'Reactions', 'Taggers', 'AuthorIssue'}
+{'Reactions', 'Taggers', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Reactions', 'Taggers', 'EditorPullRequest'}
+{'AuthorIssue', 'Reactions', 'Taggers', 'EditorPullRequest'}
+{'Reactions', 'Taggers', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
 {'Merged'}
-{'EditorPullRequest', 'Merged'}
+{'Merged', 'AuthorIssue'}
+{'Merged', 'Starred', 'AuthorIssue'}
+{'Reactions', 'Merged', 'AuthorIssue'}
+{'Reactions', 'Merged', 'Starred', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'AuthorIssue'}
+{'Reactions', 'EditorIssue', 'Merged', 'AuthorIssue'}
+{'EditorIssue', 'Merged', 'Starred', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'AuthorPullRequest', 'EditorIssue', 'Merged', 'AuthorIssue'}
+{'Reactions', 'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'Merged', 'AuthorPullRequest', 'AuthorIssue'}
+{'AuthorPullRequest', 'Merged', 'Starred', 'AuthorIssue'}
+{'AuthorIssue', 'Reactions', 'Merged', 'AuthorPullRequest', 'Starred'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'AuthorPullRequest', 'Starred'}
+{'Reactions', 'Starred', 'AuthorPullRequest', 'EditorIssue', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'EditorIssue', 'Merged', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'Reactions', 'Merged', 'AuthorIssue'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'Merged', 'EditorPullRequest'}
+{'AuthorIssue', 'Reactions', 'Merged', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'Merged', 'Starred', 'AuthorIssue'}
+{'AuthorIssue', 'Reactions', 'Merged', 'Starred', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Merged', 'Starred', 'EditorPullRequest'}
+{'EditorPullRequest', 'Reactions', 'Starred', 'EditorIssue', 'Merged', 'AuthorIssue'}
+{'AuthorIssue', 'Merged', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'EditorIssue', 'Starred', 'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'Reactions', 'Starred', 'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'EditorPullRequest', 'Reactions', 'EditorIssue', 'Starred', 'AuthorPullRequest', 'Merged', 'AuthorIssue'}
+{'Merged', 'EditorPullRequest'}
 {'AuthorPullRequest', 'Merged'}
-{'EditorPullRequest', 'AuthorPullRequest', 'Merged'}
+{'AuthorPullRequest', 'Merged', 'EditorPullRequest'}
 {'EditorIssue', 'Merged'}
-{'AuthorPullRequest', 'EditorIssue', 'Merged'}
-{'EditorPullRequest', 'EditorIssue', 'Merged'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Merged'}
+{'EditorIssue', 'Merged', 'AuthorPullRequest'}
+{'EditorIssue', 'Merged', 'EditorPullRequest'}
+{'EditorIssue', 'Merged', 'AuthorPullRequest', 'EditorPullRequest'}
 {'Reactions', 'Merged'}
-{'EditorIssue', 'Reactions', 'Merged'}
-{'AuthorPullRequest', 'Reactions', 'Merged'}
-{'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}
-{'EditorPullRequest', 'Reactions', 'Merged'}
-{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Merged'}
-{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Merged'}
-{'EditorPullRequest', 'Merged', 'EditorIssue', 'AuthorPullRequest', 'Reactions'}
+{'Reactions', 'EditorIssue', 'Merged'}
+{'Reactions', 'AuthorPullRequest', 'Merged'}
+{'Reactions', 'AuthorPullRequest', 'EditorIssue', 'Merged'}
+{'Reactions', 'Merged', 'EditorPullRequest'}
+{'Reactions', 'AuthorPullRequest', 'Merged', 'EditorPullRequest'}
+{'Reactions', 'EditorIssue', 'Merged', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Merged', 'AuthorPullRequest', 'EditorPullRequest'}
 {'Merged', 'Starred'}
 {'Reactions', 'Merged', 'Starred'}
 {'EditorIssue', 'Merged', 'Starred'}
-{'EditorIssue', 'Reactions', 'Merged', 'Starred'}
+{'Reactions', 'EditorIssue', 'Merged', 'Starred'}
 {'AuthorPullRequest', 'Merged', 'Starred'}
 {'AuthorPullRequest', 'EditorIssue', 'Merged', 'Starred'}
-{'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
-{'Merged', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}
+{'Reactions', 'AuthorPullRequest', 'Merged', 'Starred'}
+{'EditorIssue', 'Reactions', 'Merged', 'AuthorPullRequest', 'Starred'}
 {'EditorPullRequest', 'Merged', 'Starred'}
 {'EditorPullRequest', 'AuthorPullRequest', 'Merged', 'Starred'}
 {'EditorPullRequest', 'EditorIssue', 'Merged', 'Starred'}
-{'EditorPullRequest', 'Merged', 'EditorIssue', 'AuthorPullRequest', 'Starred'}
+{'EditorIssue', 'Merged', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
 {'EditorPullRequest', 'Reactions', 'Merged', 'Starred'}
-{'EditorPullRequest', 'Merged', 'EditorIssue', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'Merged', 'AuthorPullRequest', 'Reactions', 'Starred'}
-{'EditorIssue', 'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
+{'EditorIssue', 'Reactions', 'Merged', 'Starred', 'EditorPullRequest'}
+{'Reactions', 'Merged', 'Starred', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Merged', 'Starred'}
 {'EditorPullRequest'}
-{'EditorPullRequest', 'EditorIssue'}
-{'EditorPullRequest', 'EditorIssue', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions', 'Starred'}
-{'EditorIssue', 'AuthorIssue', 'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest', 'Starred'}
-{'EditorPullRequest', 'EditorIssue', 'Reactions'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'Reactions'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions'}
-{'EditorPullRequest', 'EditorIssue', 'Reactions', 'AuthorPullRequest'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorIssue', 'AuthorPullRequest'}
-{'EditorPullRequest', 'EditorIssue', 'AuthorPullRequest'}
-{'EditorPullRequest', 'AuthorIssue'}
-{'EditorPullRequest', 'AuthorIssue', 'Starred'}
-{'EditorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Starred'}
-{'EditorPullRequest', 'AuthorIssue', 'Reactions'}
-{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue', 'Reactions'}
-{'EditorPullRequest', 'AuthorPullRequest', 'AuthorIssue'}
-{'EditorPullRequest', 'Starred'}
-{'EditorPullRequest', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'AuthorPullRequest', 'Reactions', 'Starred'}
-{'EditorPullRequest', 'AuthorPullRequest', 'Starred'}
-{'EditorPullRequest', 'Reactions'}
-{'EditorPullRequest', 'AuthorPullRequest', 'Reactions'}
-{'EditorPullRequest', 'AuthorPullRequest'}
+{'EditorIssue', 'EditorPullRequest'}
+{'EditorIssue', 'Starred', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'Starred', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'Reactions', 'EditorPullRequest', 'Starred'}
+{'EditorPullRequest', 'Starred', 'AuthorPullRequest', 'EditorIssue', 'Reactions', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'}
+{'EditorIssue', 'Starred', 'AuthorIssue', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorIssue', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'}
+{'EditorIssue', 'AuthorPullRequest', 'Starred', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'AuthorIssue', 'EditorPullRequest'}
+{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'EditorPullRequest', 'AuthorIssue'}
+{'EditorIssue', 'Reactions', 'AuthorPullRequest', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorIssue', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorPullRequest', 'AuthorIssue', 'EditorPullRequest'}
+{'EditorIssue', 'AuthorPullRequest', 'EditorPullRequest'}
+{'AuthorIssue', 'EditorPullRequest'}
+{'Starred', 'AuthorIssue', 'EditorPullRequest'}
+{'Reactions', 'Starred', 'AuthorIssue', 'EditorPullRequest'}
+{'AuthorIssue', 'Reactions', 'AuthorPullRequest', 'EditorPullRequest', 'Starred'}
+{'AuthorPullRequest', 'Starred', 'AuthorIssue', 'EditorPullRequest'}
+{'Reactions', 'AuthorIssue', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Reactions', 'AuthorIssue', 'EditorPullRequest'}
+{'AuthorPullRequest', 'AuthorIssue', 'EditorPullRequest'}
+{'Starred', 'EditorPullRequest'}
+{'Reactions', 'Starred', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Reactions', 'Starred', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Starred', 'EditorPullRequest'}
+{'Reactions', 'EditorPullRequest'}
+{'AuthorPullRequest', 'Reactions', 'EditorPullRequest'}
+{'AuthorPullRequest', 'EditorPullRequest'}
 {'AuthorPullRequest'}
 {'AuthorPullRequest', 'EditorIssue'}
 {'AuthorPullRequest', 'EditorIssue', 'Starred'}
 {'AuthorPullRequest', 'EditorIssue', 'Reactions', 'Starred'}
-{'EditorIssue', 'AuthorIssue', 'AuthorPullRequest', 'Reactions', 'Starred'}
+{'EditorIssue', 'Reactions', 'Starred', 'AuthorPullRequest', 'AuthorIssue'}
 {'AuthorPullRequest', 'EditorIssue', 'AuthorIssue', 'Starred'}
 {'AuthorPullRequest', 'EditorIssue', 'Reactions'}
 {'AuthorPullRequest', 'EditorIssue', 'Reactions', 'AuthorIssue'}
 {'AuthorPullRequest', 'EditorIssue', 'AuthorIssue'}
 {'AuthorPullRequest', 'AuthorIssue'}
-{'AuthorPullRequest', 'AuthorIssue', 'Starred'}
-{'AuthorPullRequest', 'AuthorIssue', 'Reactions', 'Starred'}
-{'AuthorPullRequest', 'AuthorIssue', 'Reactions'}
+{'AuthorPullRequest', 'Starred', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'Starred', 'AuthorIssue'}
+{'AuthorPullRequest', 'Reactions', 'AuthorIssue'}
 {'AuthorPullRequest', 'Starred'}
 {'AuthorPullRequest', 'Reactions', 'Starred'}
 {'AuthorPullRequest', 'Reactions'}
 {'EditorIssue'}
 {'EditorIssue', 'Starred'}
 {'EditorIssue', 'Reactions', 'Starred'}
-{'EditorIssue', 'AuthorIssue', 'Reactions', 'Starred'}
+{'EditorIssue', 'Reactions', 'AuthorIssue', 'Starred'}
 {'EditorIssue', 'AuthorIssue', 'Starred'}
 {'EditorIssue', 'Reactions'}
-{'EditorIssue', 'AuthorIssue', 'Reactions'}
+{'EditorIssue', 'Reactions', 'AuthorIssue'}
 {'EditorIssue', 'AuthorIssue'}
 {'AuthorIssue'}
-{'AuthorIssue', 'Reactions'}
-{'AuthorIssue', 'Reactions', 'Starred'}
-{'AuthorIssue', 'Starred'}
+{'Reactions', 'AuthorIssue'}
+{'Reactions', 'Starred', 'AuthorIssue'}
+{'Starred', 'AuthorIssue'}
 {'Reactions'}
 {'Reactions', 'Starred'}
 {'Starred'}

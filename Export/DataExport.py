@@ -7,7 +7,7 @@ import psycopg2
 def export_to_csv(final_tuple, userid):
     # Creating a new directory for data to be exported
     dir_path = os.getcwd()
-    new_dir = os.path.join(dir_path, "Data_Output")  # Joined paths to be compatible with more OS
+    new_dir = os.path.join(dir_path, "../Data_Output")  # Joined paths to be compatible with more OS
 
     if not os.path.exists(new_dir):
         os.makedirs(new_dir)

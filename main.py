@@ -1,7 +1,6 @@
-from BD import Close, Connect, User
+from DB import Close, Connect, User
 from FP_Growth import FPGrowth
-import DataSorting
-import DataExport
+from Export import DataExport, DataSorting
 
 if __name__ == '__main__':
 
