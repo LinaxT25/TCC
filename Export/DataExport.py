@@ -7,7 +7,7 @@ import psycopg2
 def export_to_csv(final_tuple, userid):
     # Creating a new directory for data to be exported
     dir_path = os.getcwd()
-    new_dir = os.path.join(dir_path, "../Data_Output")  # Joined paths to be compatible with more OS
+    new_dir = os.path.join(dir_path, "./Data_Output")  # Joined paths to be compatible with more OS
 
     if not os.path.exists(new_dir):
         os.makedirs(new_dir)
@@ -18,6 +18,40 @@ def export_to_csv(final_tuple, userid):
         try:
             for i in range(len(final_tuple)):
                 writer.writerow((i + 1, final_tuple[i][0], final_tuple[i][1]))
+        except csv.Error as e:
+            sys.exit(e)
+
+
+def freq_item_export_csv(freq_item_set):
+    # Creating a new directory for data to be exported
+    dir_path = os.getcwd()
+    new_dir = os.path.join(dir_path, "Pattern_Output")  # Joined paths to be compatible with more OS
+
+    if not os.path.exists(new_dir):
+        os.makedirs(new_dir)
+
+    with open(os.path.join(new_dir, "freq_item_set.csv"), 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True, )
+        try:
+            for i in range(len(freq_item_set)):
+                writer.writerow((i + 1, freq_item_set[i]))
+        except csv.Error as e:
+            sys.exit(e)
+
+
+def association_rules_export_csv(association_rules):
+    # Creating a new directory for data to be exported
+    dir_path = os.getcwd()
+    new_dir = os.path.join(dir_path, "Pattern_Output")  # Joined paths to be compatible with more OS
+
+    if not os.path.exists(new_dir):
+        os.makedirs(new_dir)
+
+    with open(os.path.join(new_dir, "association_rules.csv"), 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True, )
+        try:
+            for i in range(len(association_rules)):
+                writer.writerow((i + 1, association_rules[i]))
         except csv.Error as e:
             sys.exit(e)
 

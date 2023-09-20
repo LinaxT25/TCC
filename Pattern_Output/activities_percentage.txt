@@ -7,6 +7,9 @@ Percentage: 0.0009908838684106222
 EditorIssue: 219
 Percentage: 0.043400713436385255
 
+Starred: 3384
+Percentage: 0.6706302021403091
+
 EditorPullRequest: 98
 Percentage: 0.019421323820848196
 
@@ -22,5 +25,150 @@ Percentage: 0.04062623860483551
 Reactions: 575
 Percentage: 0.11395164486722156
 
-Total Activities: 5046
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################
+Taggers: 4
+Percentage: 0.0007927070947284979
 
+Merged: 5
+Percentage: 0.0009908838684106222
+
+EditorIssue: 219
+Percentage: 0.043400713436385255
+
+Starred: 3384
+Percentage: 0.6706302021403091
+
+EditorPullRequest: 98
+Percentage: 0.019421323820848196
+
+AuthorIssue: 553
+Percentage: 0.10959175584621482
+
+Releases: 3
+Percentage: 0.0005945303210463733
+
+AuthorPullRequest: 205
+Percentage: 0.04062623860483551
+
+Reactions: 575
+Percentage: 0.11395164486722156
+
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################
+Taggers: 4
+Percentage: 0.0007927070947284979
+
+Merged: 5
+Percentage: 0.0009908838684106222
+
+EditorIssue: 219
+Percentage: 0.043400713436385255
+
+Starred: 3384
+Percentage: 0.6706302021403091
+
+EditorPullRequest: 98
+Percentage: 0.019421323820848196
+
+AuthorIssue: 553
+Percentage: 0.10959175584621482
+
+Releases: 3
+Percentage: 0.0005945303210463733
+
+AuthorPullRequest: 205
+Percentage: 0.04062623860483551
+
+Reactions: 575
+Percentage: 0.11395164486722156
+
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################
+Taggers: 4
+Percentage: 0.0007927070947284979
+
+Merged: 5
+Percentage: 0.0009908838684106222
+
+EditorIssue: 219
+Percentage: 0.043400713436385255
+
+Starred: 3384
+Percentage: 0.6706302021403091
+
+EditorPullRequest: 98
+Percentage: 0.019421323820848196
+
+AuthorIssue: 553
+Percentage: 0.10959175584621482
+
+Releases: 3
+Percentage: 0.0005945303210463733
+
+AuthorPullRequest: 205
+Percentage: 0.04062623860483551
+
+Reactions: 575
+Percentage: 0.11395164486722156
+
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################
+Taggers: 4
+Percentage: 0.0007927070947284979
+
+Merged: 5
+Percentage: 0.0009908838684106222
+
+EditorIssue: 219
+Percentage: 0.043400713436385255
+
+Starred: 3384
+Percentage: 0.6706302021403091
+
+EditorPullRequest: 98
+Percentage: 0.019421323820848196
+
+AuthorIssue: 553
+Percentage: 0.10959175584621482
+
+Releases: 3
+Percentage: 0.0005945303210463733
+
+AuthorPullRequest: 205
+Percentage: 0.04062623860483551
+
+Reactions: 575
+Percentage: 0.11395164486722156
+
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################
+Taggers: 4
+Percentage: 0.0007927070947284979
+
+Merged: 5
+Percentage: 0.0009908838684106222
+
+EditorIssue: 219
+Percentage: 0.043400713436385255
+
+Starred: 3384
+Percentage: 0.6706302021403091
+
+EditorPullRequest: 98
+Percentage: 0.019421323820848196
+
+AuthorIssue: 553
+Percentage: 0.10959175584621482
+
+Releases: 3
+Percentage: 0.0005945303210463733
+
+AuthorPullRequest: 205
+Percentage: 0.04062623860483551
+
+Reactions: 575
+Percentage: 0.11395164486722156
+
+Total Activities: 5046 Minor Support Threshold: 0.0005945303210463733
+############################### END OF FILE ###############################

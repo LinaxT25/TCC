@@ -1,8 +1,7 @@
-import os
-
 import psycopg2
 
 from DB import Connect
+from Export import FileWrite
 
 
 def data_pattern():
@@ -29,7 +28,7 @@ def data_pattern():
                     user_activity.append(activity[i][0])
             activity_list.append(user_activity)  # Append to global list
 
-        # Returns all activities extracted and the respective percent in total to analysis in FPGrowth
+        # Returns the sum of activities extracted for analysis in FPGrowth
         taggers_sum = sum(activities.count("Taggers") for activities in activity_list)
         merged_sum = sum(activities.count("Merged") for activities in activity_list)
         editorissue_sum = sum(activities.count("EditorIssue") for activities in activity_list)
@@ -50,42 +49,17 @@ def data_pattern():
                      authorpullrequest_sum +
                      reactions_sum)
 
-        # Creating a new directory for data to be exported
-        dir_path = os.getcwd()
-        new_dir = os.path.join(dir_path, "Pattern_Output")  # Joined paths to be compatible with more OS
-
-        if not os.path.exists(new_dir):
-            os.makedirs(new_dir)
-
-        # Writing to a file patterns output
-        f = open("./Pattern_Output/activities_percentage.txt", "wt")
-
-        f.write("Taggers: " + str(taggers_sum) + "\n")
-        f.write("Percentage: " + str(taggers_sum / total_sum) + "\n\n")
-
-        f.write("Merged: " + str(merged_sum) + "\n")
-        f.write("Percentage: " + str(merged_sum / total_sum) + "\n\n")
-
-        f.write("EditorIssue: " + str(editorissue_sum) + "\n")
-        f.write("Percentage: " + str(editorissue_sum / total_sum) + "\n\n")
-
-        f.write("EditorPullRequest: " + str(editorpullrequest_sum) + "\n")
-        f.write("Percentage: " + str(editorpullrequest_sum / total_sum) + "\n\n")
-
-        f.write("AuthorIssue: " + str(authorissue_sum) + "\n")
-        f.write("Percentage: " + str(authorissue_sum / total_sum) + "\n\n")
-
-        f.write("Releases: " + str(releases_sum) + "\n")
-        f.write("Percentage: " + str(releases_sum / total_sum) + "\n\n")
-
-        f.write("AuthorPullRequest: " + str(authorpullrequest_sum) + "\n")
-        f.write("Percentage: " + str(authorpullrequest_sum / total_sum) + "\n\n")
-
-        f.write("Reactions: " + str(reactions_sum) + "\n")
-        f.write("Percentage: " + str(reactions_sum / total_sum) + "\n\n")
-
-        f.write("Total Activities: " + str(total_sum) + "\n\n")
-        f.close()
+        # Write to a file a sum of all activities and the respective percentages
+        FileWrite.write_percentage("Taggers", taggers_sum, total_sum)
+        FileWrite.write_percentage("Merged", merged_sum, total_sum)
+        FileWrite.write_percentage("EditorIssue", editorissue_sum, total_sum)
+        FileWrite.write_percentage("Starred", starred_sum, total_sum)
+        FileWrite.write_percentage("EditorPullRequest", editorpullrequest_sum, total_sum)
+        FileWrite.write_percentage("AuthorIssue", authorissue_sum, total_sum)
+        FileWrite.write_percentage("Releases", releases_sum, total_sum)
+        FileWrite.write_percentage("AuthorPullRequest", authorpullrequest_sum, total_sum)
+        FileWrite.write_percentage("Reactions", reactions_sum, total_sum)
+        FileWrite.write_total_activities(total_sum)
 
         return activity_list
     except (Exception, psycopg2.DatabaseError) as error:
