@@ -34,7 +34,7 @@ def freq_item_export_csv(freq_item_set):
         writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True, )
         try:
             for i in range(len(freq_item_set)):
-                writer.writerow((i + 1, freq_item_set[i]))
+                writer.writerow([i + 1] + list(freq_item_set[i]))
         except csv.Error as e:
             sys.exit(e)
 
@@ -51,7 +51,7 @@ def association_rules_export_csv(association_rules):
         writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL, doublequote=True, )
         try:
             for i in range(len(association_rules)):
-                writer.writerow((i + 1, association_rules[i]))
+                writer.writerow([i+1] + association_rules[i])
         except csv.Error as e:
             sys.exit(e)
 

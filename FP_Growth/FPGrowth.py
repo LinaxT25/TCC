@@ -18,8 +18,3 @@ def fp_growth():
 
     DataExport.freq_item_export_csv(freq_item_set)
     DataExport.association_rules_export_csv(association_rules)
-
-
-
-
-
