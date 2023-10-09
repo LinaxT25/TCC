@@ -39,27 +39,16 @@ def data_pattern():
         authorpullrequest_sum = sum(activities.count("AuthorPullRequest") for activities in activity_list)
         reactions_sum = sum(activities.count("Reactions") for activities in activity_list)
 
-        total_sum = (taggers_sum +
-                     merged_sum +
-                     editorissue_sum +
-                     starred_sum +
-                     editorpullrequest_sum +
-                     authorissue_sum +
-                     releases_sum +
-                     authorpullrequest_sum +
-                     reactions_sum)
-
         # Write to a file a sum of all activities and the respective percentages
-        FileWrite.write_percentage("Taggers", taggers_sum, total_sum)
-        FileWrite.write_percentage("Merged", merged_sum, total_sum)
-        FileWrite.write_percentage("EditorIssue", editorissue_sum, total_sum)
-        FileWrite.write_percentage("Starred", starred_sum, total_sum)
-        FileWrite.write_percentage("EditorPullRequest", editorpullrequest_sum, total_sum)
-        FileWrite.write_percentage("AuthorIssue", authorissue_sum, total_sum)
-        FileWrite.write_percentage("Releases", releases_sum, total_sum)
-        FileWrite.write_percentage("AuthorPullRequest", authorpullrequest_sum, total_sum)
-        FileWrite.write_percentage("Reactions", reactions_sum, total_sum)
-        FileWrite.write_total_activities(total_sum)
+        FileWrite.write_percentage("Taggers", taggers_sum, len(activity_list))
+        FileWrite.write_percentage("Merged", merged_sum, len(activity_list))
+        FileWrite.write_percentage("EditorIssue", editorissue_sum, len(activity_list))
+        FileWrite.write_percentage("Starred", starred_sum, len(activity_list))
+        FileWrite.write_percentage("EditorPullRequest", editorpullrequest_sum, len(activity_list))
+        FileWrite.write_percentage("AuthorIssue", authorissue_sum, len(activity_list))
+        FileWrite.write_percentage("Releases", releases_sum, len(activity_list))
+        FileWrite.write_percentage("AuthorPullRequest", authorpullrequest_sum, len(activity_list))
+        FileWrite.write_percentage("Reactions", reactions_sum, len(activity_list))
 
         return activity_list
     except (Exception, psycopg2.DatabaseError) as error:

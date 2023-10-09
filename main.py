@@ -1,5 +1,5 @@
 from DB import Close, Connect, User
-from FP_Growth import FPGrowth
+from FP_Growth import PatternAnalysis
 from Export import DataExport, DataSorting
 
 if __name__ == '__main__':
@@ -61,7 +61,7 @@ if __name__ == '__main__':
         Close.close_connection(connection)
 
     elif option == '3':
-        FPGrowth.fp_growth()
+        PatternAnalysis.fp_growth()
     else:
         print("Error in selection!")
 
