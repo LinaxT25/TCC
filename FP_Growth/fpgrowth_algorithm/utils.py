@@ -1,6 +1,6 @@
 from collections import defaultdict
 from itertools import chain, combinations
-from Export.FileWrite import write_freq_item_set
+from Export.DataExport import freq_item_export_csv
 
 
 class Node:
@@ -138,7 +138,9 @@ def association_rule(freq_item_set, item_set_list, min_conf):
         subsets = powerset(item_set)
         item_set_sup = get_support(item_set, item_set_list)
         # Writing freq_item_output.txt
-        write_freq_item_set(item_set, item_set_sup, len(freq_item_set), item_set_list)
+        # write_freq_item_set(item_set, item_set_sup, len(freq_item_set), item_set_list)
+        # Writing freq_item_set.csv
+        freq_item_export_csv(item_set, item_set_sup, len(freq_item_set), item_set_list)
         for s in subsets:
             confidence = float(item_set_sup / get_support(s, item_set_list))
             if confidence > min_conf:

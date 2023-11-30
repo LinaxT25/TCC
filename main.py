@@ -19,6 +19,7 @@ if __name__ == '__main__':
         user = User.retrieve_actor(connection, userID)
 
         # TODO Check if user already exists in database
+        # TODO Corrigir as funções csv e avisar o prof sobre o overleaf
         if user is not False:
             print("User found!\n")
 
