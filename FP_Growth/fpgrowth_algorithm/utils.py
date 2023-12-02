@@ -137,8 +137,6 @@ def association_rule(freq_item_set, item_set_list, min_conf):
     for item_set in freq_item_set:
         subsets = powerset(item_set)
         item_set_sup = get_support(item_set, item_set_list)
-        # Writing freq_item_output.txt
-        # write_freq_item_set(item_set, item_set_sup, len(freq_item_set), item_set_list)
         # Writing freq_item_set.csv
         freq_item_export_csv(item_set, item_set_sup, len(freq_item_set), item_set_list)
         for s in subsets:

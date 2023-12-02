@@ -49,7 +49,7 @@ def export_to_db(final_tuple, userid, connect):
         print(error)
 
 
-def write_association_rules(association_rules):
+def association_rules_export_csv(association_rules):
     # Creating a new directory for data to be exported
     dir_path = os.getcwd()
     new_dir = os.path.join(dir_path, "Pattern_Output")  # Joined paths to be compatible with more OS
@@ -57,11 +57,30 @@ def write_association_rules(association_rules):
     if not os.path.exists(new_dir):
         os.makedirs(new_dir)
 
-    # Write to a file patterns that are associated with another
-    f = open("./Pattern_Output/association_rules_output.txt", "wt")
-    for rules in association_rules:
-        f.write(rules.__str__() + "\n")
-    f.close()
+    with open(os.path.join(new_dir, "association_rules.csv"), 'w', newline='', encoding='utf-8') as file:
+        try:
+            index = 0  # Index for write in csv
+            for x in association_rules:
+                index += 1
+                file.write(str(index) + ',')  # Writing in beginning to not create duplicates
+                # 3 elements in each interaction with last being a float
+                for i in range(len(x)):
+                    if not isinstance(x[i], float):
+                        x[i] = list(x[i])  # Converting set to list
+
+                        # Adding double quotes to elements
+                        x[i][0] = '"' + x[i][0]
+                        x[i][-1] = x[i][-1] + '"'
+
+                        for y in x[i]:
+                            file.write(str(y) + ',')
+                    else:
+                        # Adding double quotes to float
+                        x[i] = '"' + str(x[i]) + '"'
+                        file.write(x[i] + '\n')
+            file.close()
+        except csv.Error as e:
+            sys.exit(e)
 
 
 def freq_item_export_csv(item_set, item_set_sup, elements, item_set_list):
@@ -75,7 +94,7 @@ def freq_item_export_csv(item_set, item_set_sup, elements, item_set_list):
 
     # Check if file exists to choice write a new file or append to an existent file
     if elements_to_write == 0:
-        with open(os.path.join(new_dir, "freq_item_set.csv"), 'w', newline='', encoding='utf-8') as file:
+        with open(os.path.join(new_dir, "frequency_item_set.csv"), 'w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_NONE, escapechar=' ', quotechar=' ')
             try:
                 # Converting the set to a list, for changing in csv format
@@ -102,7 +121,7 @@ def freq_item_export_csv(item_set, item_set_sup, elements, item_set_list):
             except csv.Error as e:
                 sys.exit(e)
     else:
-        with open(os.path.join(new_dir, "freq_item_set.csv"), 'a', newline='', encoding='utf-8') as file:
+        with open(os.path.join(new_dir, "frequency_item_set.csv"), 'a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_NONE, escapechar=' ', quotechar=' ')
             try:
                 # Converting the set to a list, for changing in csv format

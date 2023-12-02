@@ -24,7 +24,5 @@ def fp_growth():
     # For 1% of total actors(4263) and total of activities in list(4109): 42,63 / 4109
     freq_item_set, association_rules = fpgrowth(activity_list, min_sup_ratio=0.0103, min_conf=0.1)
 
-    DataExport.write_association_rules(association_rules)
-
     # Graphs.graph_pattern(patterns, 2)
     # Graphs.graph_rule(rules)
