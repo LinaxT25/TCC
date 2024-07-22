@@ -1,5 +1,6 @@
 from DB import Close, Connect, User
 from FP_Growth import PatternAnalysis
+from Graphs import Timeline
 from Export import DataExport, DataSorting
 
 if __name__ == '__main__':
@@ -19,7 +20,6 @@ if __name__ == '__main__':
         user = User.retrieve_actor(connection, userID)
 
         # TODO Check if user already exists in database
-        # TODO Corrigir as funções csv e avisar o prof sobre o overleaf
         if user is not False:
             print("User found!\n")
 
@@ -63,6 +63,9 @@ if __name__ == '__main__':
 
     elif option == '3':
         PatternAnalysis.fp_growth()
+
+    elif option == '4':
+        Timeline.timeline()
     else:
         print("Error in selection!")
 

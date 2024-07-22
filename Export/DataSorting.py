@@ -23,26 +23,30 @@ def sorting(connection, userid):
         if tuples is None:
             final_data_list.append(tuple((str(stargazers[0]), None)))
         else:
-            final_data_list.append(tuple((str(stargazers[0]), tuples[0].isoformat())))
+            for i in range(len(tuples)):
+                final_data_list.append(tuple((str(stargazers[0]), tuples[i].isoformat())))
 
     for tuples in releases[1:]:
         if tuples is None:
             final_data_list.append(tuple((releases[0], None)))
         else:
-            final_data_list.append(tuple((releases[0], tuples[0].isoformat())))
+            for i in range(len(tuples)):
+                final_data_list.append(tuple((releases[0], tuples[i].isoformat())))
 
     # Already have the iso format so convert is not necessary
     for tuples in taggers[1:]:
         if tuples is None:
             final_data_list.append(tuple((taggers[0], None)))
         else:
-            final_data_list.append(tuple((taggers[0], tuples[0])))
+            for i in range(len(tuples)):
+                final_data_list.append(tuple((taggers[0], tuples[i])))
 
     for tuples in reactions[1:]:
         if tuples is None:
             final_data_list.append(tuple((reactions[0], None)))
         else:
-            final_data_list.append(tuple((reactions[0], tuples[0].isoformat())))
+            for i in range(len(tuples)):
+                final_data_list.append(tuple((reactions[0], tuples[i].isoformat())))
 
     # Issues
     if issues[3] is None:
