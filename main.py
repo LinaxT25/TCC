@@ -9,24 +9,26 @@ if __name__ == '__main__':
     print("[1] Input the user ID.")
     print("[2] Extract for all users.")
     print("[3] Analyze data patterns from standard table in database.")
+    print("[4] Creating a timeline graphy for all dated activities.")
+    print("[5] Creating a timeline graphy for a user.")
 
     option = input()
 
     if option == '1':
         print("Input the user ID:")
-        userID = input()
+        userid = input()
 
         connection = Connect.connect()
-        user = User.retrieve_actor(connection, userID)
+        user = User.retrieve_actor(connection, userid)
 
         # TODO Check if user already exists in database
         if user is not False:
             print("User found!\n")
 
-            temporalTuple = DataSorting.sorting(connection, userID)
+            temporalTuple = DataSorting.sorting(connection, userid)
 
-            DataExport.export_to_csv(temporalTuple, userID)
-            DataExport.export_to_db(temporalTuple, userID, connection)
+            DataExport.export_to_csv(temporalTuple, userid)
+            DataExport.export_to_db(temporalTuple, userid, connection)
         else:
             print("User not found!\n")
 
@@ -66,6 +68,12 @@ if __name__ == '__main__':
 
     elif option == '4':
         Timeline.timeline()
+
+    elif option == '5':
+        print("Input the user ID:")
+        userid = input()
+        Timeline.timeline_user(userid)
+
     else:
         print("Error in selection!")
 
